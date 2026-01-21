@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-left",
+      "description": "Model wearing a 100 Count Kanchi Cotton Plain Saree",
+      "imageUrl": "https://images.unsplash.com/photo-1761124739031-9db4207f67c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNhcmVlfGVufDB8fHx8MTc2OTAwOTk2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman saree"
+    },
+    {
+      "id": "hero-center",
+      "description": "Model wearing an Intricate Heavy Lucknowi Chikankari Kurta Set",
+      "imageUrl": "https://images.unsplash.com/photo-1759840278478-826c0d0f110e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBrdXJ0YXxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman kurta"
+    },
+    {
+      "id": "hero-right",
+      "description": "Model wearing a Banarasi Silk Outfit",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1553802921-61c5306178b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNpbGslMjBvdXRmaXR8ZW58MHx8fHwxNzY5MDA5OTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman silk outfit"
+    },
+    {
+      "id": "featured-kanchi-cotton",
+      "description": "Model in a Kanchi Cotton Saree",
+      "imageUrl": "https://images.unsplash.com/photo-1712471010183-8c30c4511467?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3R0b24lMjBzYXJlZXxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cotton saree"
+    },
+    {
+      "id": "featured-banarasi-silk",
+      "description": "Model in a Banarasi Silk Suit",
+      "imageUrl": "https://images.unsplash.com/photo-1574781824015-6dc89cb75ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaWxrJTIwc3VpdHxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk suit"
+    },
+    {
+      "id": "featured-aline-cotton",
+      "description": "Model in an Aline Cotton Suit",
+      "imageUrl": "https://images.unsplash.com/photo-1763719161899-701a2f80c890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3R0b24lMjBzdWl0fGVufDB8fHx8MTc2OTAwOTk2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cotton suit"
+    },
+    {
+      "id": "featured-chikankari",
+      "description": "Model in a Chikankari Kurta Set",
+      "imageUrl": "https://images.unsplash.com/photo-1759840278361-f1adc75529a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxrdXJ0YSUyMHNldHxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kurta set"
+    },
+    {
+      "id": "latest-coord-set",
+      "description": "Stylish Cotton Co-ord Set",
+      "imageUrl": "https://images.unsplash.com/photo-1767077280626-ff65a37f84d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb29yZCUyMHNldHxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coord set"
+    },
+    {
+      "id": "latest-anarkali",
+      "description": "Premium Anarkali Suit",
+      "imageUrl": "https://picsum.photos/seed/latest2/600/800",
+      "imageHint": "anarkali suit"
+    },
+    {
+      "id": "latest-plus-size",
+      "description": "Plus Size Ethnic Wear",
+      "imageUrl": "https://picsum.photos/seed/latest3/600/800",
+      "imageHint": "plus size ethnic"
+    },
+    {
+      "id": "latest-festive-saree",
+      "description": "Traditional Festive Saree",
+      "imageUrl": "https://images.unsplash.com/photo-1761125050285-e2d4eef393cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmZXN0aXZlJTIwc2FyZWV8ZW58MHx8fHwxNzY5MDA5OTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "festive saree"
+    },
+    {
+      "id": "about-us-saree",
+      "description": "Model in a beautiful Akshaya saree",
+      "imageUrl": "https://images.unsplash.com/photo-1763017707678-2ab848ab2808?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiZWF1dGlmdWwlMjBzYXJlZXxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beautiful saree"
+    }
+  ]
 }
