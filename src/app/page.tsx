@@ -7,6 +7,7 @@ import { Testimonials } from '@/components/testimonials';
 import { Social } from '@/components/social';
 import { Faq } from '@/components/faq';
 import { Stats } from '@/components/stats';
+import { ShopByCategory } from '@/components/shop-by-category';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <HeroSection />
         <Stats />
         <FeaturedCollections />
+        <ShopByCategory />
         <AboutUs />
         <Testimonials />
         <Social />

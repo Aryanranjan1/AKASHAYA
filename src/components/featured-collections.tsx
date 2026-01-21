@@ -3,29 +3,24 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const featuredProducts = [
   {
-    id: 'featured-kanchi-cotton',
-    title: 'Kanchi Cotton',
-    className: 'col-span-2 row-span-2',
-  },
-  {
-    id: 'featured-banarasi-silk',
-    title: 'Banarasi Silk',
-    className: '',
-  },
-  {
-    id: 'featured-aline-cotton',
-    title: 'Cotton Suits',
-    className: '',
-  },
-  {
-    id: 'featured-chikankari',
-    title: 'Chikankari Sets',
-    className: '',
+    id: 'latest-coord-set',
+    title: 'Stylish Cotton Co-ord Set',
+    price: 'RM95',
   },
   {
     id: 'latest-anarkali',
-    title: 'Anarkali',
-    className: '',
+    title: 'Elegant Anarkali Suit',
+    price: 'RM190',
+  },
+  {
+    id: 'latest-plus-size',
+    title: 'Plus Size Festive Collection',
+    price: 'From RM110',
+  },
+  {
+    id: 'latest-festive-saree',
+    title: 'Traditional Festive Saree',
+    price: 'RM200',
   },
 ];
 
@@ -34,19 +29,20 @@ export function FeaturedCollections() {
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">SHOP BY CATEGORY</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary">FEATURED COLLECTIONS</h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-4 h-[40rem] md:h-[42rem]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {featuredProducts.map((product) => {
             const imageData = PlaceHolderImages.find((img) => img.id === product.id);
             return (
               <ProductCard
                 key={product.id}
                 title={product.title}
+                price={product.price}
                 imageUrl={imageData?.imageUrl || ''}
                 imageAlt={imageData?.description || product.title}
                 imageHint={imageData?.imageHint || 'ethnic wear'}
-                className={product.className}
+                buttonText="SHOP NOW"
               />
             );
           })}
