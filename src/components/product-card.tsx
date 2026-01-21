@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Eye } from 'lucide-react';
+import { ArrowRight, Eye } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
@@ -11,6 +11,7 @@ type ProductCardProps = {
   title: string;
   price?: string;
   buttonText?: string;
+  tagline?: string;
   className?: string;
 };
 
@@ -21,6 +22,7 @@ export function ProductCard({
   title,
   price,
   buttonText,
+  tagline,
   className,
 }: ProductCardProps) {
   // If price or buttonText is provided, use the original card design
@@ -57,25 +59,30 @@ export function ProductCard({
     );
   }
 
-  // New Bento-style card for categories
+  // New Mosaic/Bento-style card for categories
   return (
-    <Link href="#" className={cn("group relative block w-full h-full rounded-lg overflow-hidden shadow-lg", className)}>
+    <Link href="#" className={cn("group relative block w-full h-full overflow-hidden", className)}>
         <Image
           src={imageUrl}
           alt={imageAlt}
           fill
           className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
-          sizes="(max-width: 768px) 50vw, 33vw"
+          sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
           data-ai-hint={imageHint}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6 text-white">
-            <h3 className="font-headline text-xl md:text-2xl font-bold">{title}</h3>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+            {tagline && (
+              <span className="font-body text-xs text-accent uppercase tracking-[2px] mb-1.5 block opacity-90">
+                {tagline}
+              </span>
+            )}
+            <h3 className="font-headline text-2xl md:text-4xl font-normal text-white leading-none [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
+                {title}
+            </h3>
         </div>
-        <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <div className="transform scale-90 group-hover:scale-100 transition-transform duration-300 border-2 border-white/50 rounded-full px-6 py-2 text-white text-base font-semibold tracking-wider">
-                SHOP NOW
-            </div>
+        <div className="absolute top-5 right-5 w-11 h-11 bg-white text-primary rounded-full flex items-center justify-center transition-all duration-400 ease-in-out sm:opacity-0 sm:transform sm:-translate-y-2 sm:-rotate-45 group-hover:opacity-100 group-hover:translate-y-0 group-hover:rotate-0">
+            <ArrowRight className="w-5 h-5" />
         </div>
     </Link>
   );
