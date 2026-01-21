@@ -91,9 +91,6 @@ export function ProductCarousel() {
 
   return (
     <section id="product-carousel" className="w-full bg-white py-20 relative">
-       <div className="max-w-7xl mx-auto px-4 mb-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">FEATURED COLLECTIONS</h2>
-       </div>
       <div className="carousel-wrapper max-w-full md:px-10 relative sm:px-0">
         <button
           onClick={() => moveSlide(-325)}
