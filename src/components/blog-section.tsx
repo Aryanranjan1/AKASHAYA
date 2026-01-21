@@ -148,10 +148,10 @@ export function BlogSection() {
                         <Accordion type="single" collapsible className="w-full space-y-3">
                           {faqs.map((faq, index) => (
                             <AccordionItem value={`item-${index}`} key={index} className="border-none">
-                              <AccordionTrigger className="group w-full text-left bg-gray-50 border-none p-4 font-body font-medium text-foreground/80 hover:no-underline hover:bg-gray-100 hover:text-primary transition-colors data-[state=open]:bg-primary data-[state=open]:text-white [&>svg.lucide-chevron-down]:hidden">
+                              <AccordionTrigger className="group w-full text-left bg-gray-50 border-none p-4 font-body font-medium text-foreground/80 hover:no-underline hover:bg-gray-100 hover:text-primary transition-colors data-[state=open]:bg-primary data-[state=open]:text-primary-foreground [&>svg.lucide-chevron-down]:hidden">
                                 <span className="flex-1 text-left">{faq.question}</span>
                                 <Plus className="h-4 w-4 shrink-0 text-accent transition-transform duration-200 group-data-[state=open]:hidden" />
-                                <Minus className="h-4 w-4 shrink-0 text-white transition-transform duration-200 hidden group-data-[state=open]:block" />
+                                <Minus className="h-4 w-4 shrink-0 transition-transform duration-200 hidden group-data-[state=open]:block" />
                               </AccordionTrigger>
                               <AccordionContent className="bg-white p-4 text-sm text-foreground/80 leading-relaxed">
                                 {faq.answer}

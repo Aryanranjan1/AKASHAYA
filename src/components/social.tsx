@@ -62,7 +62,7 @@ export function Social() {
                             />
                             <div className="absolute inset-0 bg-primary/85 flex flex-col justify-center items-center gap-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                                 <Instagram className="text-accent text-3xl" />
-                                <span className="text-white uppercase text-xs tracking-[2px] border-b border-accent pb-1.5">{socialMeta[index] || 'View Post'}</span>
+                                <span className="text-primary-foreground uppercase text-xs tracking-[2px] border-b border-accent pb-1.5">{socialMeta[index] || 'View Post'}</span>
                             </div>
                         </Link>
                     ))}
