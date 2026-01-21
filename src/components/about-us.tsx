@@ -7,7 +7,7 @@ export function AboutUs() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-[1.2fr_1fr] gap-16 lg:gap-20 items-center">
           
-          <div className="lg:pb-12 order-2 lg:order-1 lg:border-b-0 border-b border-accent/20 pb-12">
+          <div className="lg:pb-12 lg:border-b-0 border-b border-accent/20 pb-12">
             <header className="flex flex-col items-center lg:items-start gap-2 mb-10 text-center lg:text-left">
                 <span className="font-body text-xs text-accent uppercase tracking-[3px] font-medium">Our Heritage</span>
                 <div className="flex items-end justify-center lg:justify-start gap-5 w-full">
@@ -36,7 +36,7 @@ export function AboutUs() {
             </div>
           </div>
 
-          <div className="bg-primary text-primary-foreground p-8 md:p-12 relative shadow-[20px_20px_0px_hsl(var(--accent)/0.15)] border border-accent order-1 lg:order-2">
+          <div className="bg-primary text-primary-foreground p-8 md:p-12 relative shadow-[20px_20px_0px_hsl(var(--accent)/0.15)] border border-accent">
             <h3 className="font-headline text-3xl text-accent mb-8">Visit The Boutique</h3>
             
             <div className="space-y-4 mb-8 font-light text-sm leading-relaxed opacity-90">
