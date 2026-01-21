@@ -29,8 +29,8 @@ function ProductCarouselCard({
   backImageAlt,
 }: ProductCarouselCardProps) {
   return (
-    <Link href="#" className="group product-card relative flex-shrink-0 w-[300px] bg-white border border-primary/10 p-4 transition-transform duration-400 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10 hover:border-accent/40 cursor-pointer no-underline text-foreground md:w-[300px] md:flex-shrink-0 sm:w-[240px] sm:p-2.5">
-      <div className="card-media relative h-[380px] w-full overflow-hidden bg-gray-100 sm:h-[280px]">
+    <Link href="#" className="group product-card relative flex-shrink-0 w-[240px] p-2.5 lg:w-[300px] lg:p-4 bg-white border border-primary/10 transition-transform duration-400 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10 hover:border-accent/40 cursor-pointer no-underline text-foreground">
+      <div className="card-media relative h-[280px] lg:h-[380px] w-full overflow-hidden bg-gray-100">
         {badge && (
           <span className="badge-sale absolute top-2.5 left-2.5 z-10 bg-accent text-accent-foreground font-body text-[0.6rem] font-bold uppercase py-1 px-2 tracking-wider">
             {badge}
@@ -50,13 +50,13 @@ function ProductCarouselCard({
           className="img-back absolute inset-0 w-full h-full object-cover z-[1] opacity-0 transition-opacity duration-600 ease-in-out group-hover:opacity-100 transform scale-110 group-hover:scale-100"
         />
 
-        <div className="quick-actions absolute bottom-0 left-0 right-0 bg-white/95 p-4 flex justify-center z-[6] transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0 border-t border-accent sm:p-2.5 sm:translate-y-0">
-          <button className="btn-quick-add w-full bg-primary text-primary-foreground py-3 uppercase text-[0.75rem] tracking-[2px] font-body font-semibold border border-primary cursor-pointer transition-colors duration-300 hover:bg-accent hover:text-primary hover:border-accent sm:text-[0.65rem] sm:py-2">
+        <div className="quick-actions absolute bottom-0 left-0 right-0 bg-white/95 flex justify-center z-[6] transform transition-transform duration-300 ease-in-out border-t border-accent p-2.5 lg:p-4 translate-y-0 lg:translate-y-full lg:group-hover:translate-y-0">
+          <button className="btn-quick-add w-full bg-primary text-primary-foreground uppercase tracking-[2px] font-body font-semibold border border-primary cursor-pointer transition-colors duration-300 hover:bg-accent hover:text-primary hover:border-accent py-2 text-[0.65rem] lg:py-3 lg:text-[0.75rem]">
             Quick Add +
           </button>
         </div>
 
-        <div className="absolute inset-2.5 border border-white/60 pointer-events-none z-[5] transition-all duration-400 ease-in-out group-hover:inset-1.5 group-hover:border-accent sm:hidden" />
+        <div className="absolute inset-2.5 border border-white/60 pointer-events-none z-[5] transition-all duration-400 ease-in-out group-hover:inset-1.5 group-hover:border-accent hidden lg:block" />
       </div>
 
       <div className="card-info pt-5 text-left border-t border-accent/20 mt-4">
@@ -91,16 +91,16 @@ export function ProductCarousel() {
 
   return (
     <section id="product-carousel" className="w-full bg-white py-20 relative">
-      <div className="carousel-wrapper max-w-full md:px-10 relative sm:px-0">
+      <div className="carousel-wrapper max-w-full lg:px-10 relative">
         <button
           onClick={() => moveSlide(-325)}
-          className="carousel-nav nav-prev absolute top-[35%] -translate-y-1/2 w-11 h-11 border border-gray-300 bg-white text-gray-800 flex items-center justify-center cursor-pointer z-10 transition-colors duration-300 shadow-md hover:bg-primary hover:border-primary hover:text-white left-10 sm:hidden"
+          className="carousel-nav nav-prev absolute top-[35%] -translate-y-1/2 w-11 h-11 border border-gray-300 bg-white text-gray-800 hidden lg:flex items-center justify-center cursor-pointer z-10 transition-colors duration-300 shadow-md hover:bg-primary hover:border-primary hover:text-white left-10"
         >
           <ChevronLeft />
         </button>
         <button
           onClick={() => moveSlide(325)}
-          className="carousel-nav nav-next absolute top-[35%] -translate-y-1/2 w-11 h-11 border border-gray-300 bg-white text-gray-800 flex items-center justify-center cursor-pointer z-10 transition-colors duration-300 shadow-md hover:bg-primary hover:border-primary hover:text-white right-10 sm:hidden"
+          className="carousel-nav nav-next absolute top-[35%] -translate-y-1/2 w-11 h-11 border border-gray-300 bg-white text-gray-800 hidden lg:flex items-center justify-center cursor-pointer z-10 transition-colors duration-300 shadow-md hover:bg-primary hover:border-primary hover:text-white right-10"
         >
           <ChevronRight />
         </button>
