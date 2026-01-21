@@ -12,6 +12,7 @@ export default {
       fontFamily: {
         body: ['Montserrat', 'sans-serif'],
         headline: ['Cormorant Garamond', 'serif'],
+        sign: ['Great Vibes', 'cursive'],
         code: ['monospace'],
       },
       colors: {
