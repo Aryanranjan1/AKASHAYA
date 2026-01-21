@@ -1,86 +1,112 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Star } from "lucide-react";
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { CheckCircle, Star } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from './ui/button';
 
 const testimonials = [
   {
+    id: 'testimonial-avatar-1',
+    name: "Sarah Menon",
+    review: "The shipping to Singapore was incredibly fast. The Kanchi cotton breathes so well in this humid weather.",
+    purchasedItem: "100 Count Kanchi Cotton",
+  },
+  {
+    id: 'testimonial-avatar-2',
     name: "Priya K.",
-    avatar: "PK",
-    image: "https://picsum.photos/seed/avatar1/100/100",
-    review: "The Kanchi cotton saree I bought is a masterpiece. The fabric is so soft and the color is vibrant. I received so many compliments!",
-    rating: 5,
+    review: "Heavier and richer than the photos. The packaging was also so luxurious.",
+    purchasedItem: "Royal Banarasi Silk",
   },
   {
-    name: "Aisha R.",
-    avatar: "AR",
-    image: "https://picsum.photos/seed/avatar2/100/100",
-    review: "My Lucknowi Chikankari set is perfect for festive occasions. It's elegant, comfortable, and the craftsmanship is exquisite. Highly recommend Akshaya!",
-    rating: 5,
+    id: 'testimonial-avatar-3',
+    name: "Anjali R.",
+    review: "Perfect fit for the cotton suit. The stitching quality is boutique-level.",
+    purchasedItem: "Aline Cotton Suit Set",
   },
   {
+    id: 'testimonial-avatar-4',
     name: "Meera S.",
-    avatar: "MS",
-    image: "https://picsum.photos/seed/avatar3/100/100",
-    review: "I'm in love with the Banarasi silk outfit. The quality is top-notch and the delivery was prompt. Will definitely shop here again.",
-    rating: 5,
-  },
-  {
-    name: "Sara L.",
-    avatar: "SL",
-    image: "https://picsum.photos/seed/avatar4/100/100",
-    review: "Akshaya has such a unique and beautiful collection of ethnic wear. I bought a simple cotton suit for daily wear and it's my new favorite.",
-    rating: 4,
+    review: "The intricate embroidery on the Chikankari set is stunning.",
+    purchasedItem: "Lucknowi Chikankari",
   },
 ];
 
 const renderStars = (rating: number) => {
-    return Array(rating).fill(null).map((_, i) => <Star key={i} className="w-5 h-5 text-primary fill-primary" />);
+    return Array(rating).fill(null).map((_, i) => <Star key={i} className="w-5 h-5 text-accent fill-accent" />);
 }
 
 export function Testimonials() {
   return (
-    <section className="py-16 lg:py-24 bg-card">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">WHAT OUR CLIENTS SAY</h2>
-          <p className="mt-4 text-lg text-foreground/80 max-w-2xl mx-auto">
-            We take pride in our happy customers. Here's what they have to say about their Akshaya experience.
-          </p>
-        </div>
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          className="w-full max-w-xs sm:max-w-xl md:max-w-3xl lg:max-w-5xl mx-auto"
-        >
-          <CarouselContent>
-            {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-1">
-                  <Card className="h-full bg-background border-none shadow-lg">
-                    <CardContent className="flex flex-col items-center text-center justify-center p-8 space-y-4">
-                        <Avatar className="w-24 h-24 border-4 border-primary">
-                            <AvatarImage src={testimonial.image} alt={testimonial.name} />
-                            <AvatarFallback>{testimonial.avatar}</AvatarFallback>
-                        </Avatar>
-                        <div className="space-y-2 pt-2">
-                            <h3 className="font-bold text-xl text-primary">{testimonial.name}</h3>
-                            <div className="flex justify-center">
-                                {renderStars(testimonial.rating)}
+    <section className="bg-background">
+      <div className="container mx-auto px-4 py-16 lg:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20 items-start">
+            
+            <div className="lg:sticky top-24 text-center lg:text-left">
+                <header className="flex flex-col items-center lg:items-start gap-2 mb-8">
+                    <span className="font-body text-xs text-accent uppercase tracking-[3px] font-medium">Client Love</span>
+                    <div className="flex items-end gap-5 w-full">
+                        <h2 className="font-headline text-5xl text-primary leading-none whitespace-nowrap">Kind <i>Words</i></h2>
+                        <div className="flex-grow h-px bg-gradient-to-r from-accent to-accent/20 mb-3 relative hidden lg:block">
+                            <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-xl bg-background pl-2.5">❖</span>
+                        </div>
+                    </div>
+                </header>
+
+                <div className="mb-10 border-l-4 border-accent pl-5">
+                    <div className="flex text-accent mb-1 justify-center lg:justify-start">
+                        {renderStars(5)}
+                    </div>
+                    <p className="text-sm text-foreground/70">
+                        <strong className="font-semibold text-primary">4.9/5 Average</strong>
+                        <br/>
+                        based on 150+ Reviews
+                    </p>
+                </div>
+
+                <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs uppercase tracking-[2px] h-auto py-4 px-8">
+                    <Link href="#">Write a Review</Link>
+                </Button>
+            </div>
+
+            <div className="flex flex-col gap-8">
+                {testimonials.map((testimonial) => {
+                  const imageData = PlaceHolderImages.find((img) => img.id === testimonial.id);
+                  return (
+                    <article key={testimonial.name} className="bg-card/50 border border-border/50 p-8 lg:p-10 relative transition-all duration-300 hover:bg-background hover:shadow-xl hover:border-accent/30 hover:-translate-y-1">
+                        <div className="absolute top-5 right-8 font-headline text-[8rem] leading-none text-accent/10 select-none pointer-events-none">“</div>
+                        
+                        <div className="flex items-center gap-4 mb-5">
+                            {imageData && (
+                                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-accent/50">
+                                    <Image
+                                        src={imageData.imageUrl}
+                                        alt={testimonial.name}
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                            )}
+                            <div>
+                                <h4 className="font-headline text-lg text-primary">{testimonial.name}</h4>
+                                <span className="text-xs text-accent uppercase tracking-wider flex items-center gap-1.5">
+                                    <CheckCircle className="w-3 h-3" /> Verified Buyer
+                                </span>
                             </div>
                         </div>
-                      <p className="text-foreground/80 italic text-base pt-2">"{testimonial.review}"</p>
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="hidden lg:flex"/>
-          <CarouselNext className="hidden lg:flex"/>
-        </Carousel>
+
+                        <p className="font-headline text-xl text-foreground/80 italic leading-snug mb-4">
+                            "{testimonial.review}"
+                        </p>
+
+                        <span className="text-xs text-foreground/50 uppercase tracking-wider border-t border-border pt-4 inline-block">
+                            Purchased: {testimonial.purchasedItem}
+                        </span>
+                    </article>
+                  )
+                })}
+            </div>
+
+        </div>
       </div>
     </section>
   );

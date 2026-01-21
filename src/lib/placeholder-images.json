@@ -161,6 +161,30 @@
       "description": "Avatar of a blog author",
       "imageUrl": "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwZmFjZXxlbnwwfHx8fDE3Njg5NjUyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person face"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Avatar of Sarah Menon",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=100&q=80",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar of Priya K.",
+      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&w=100&q=80",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Avatar of Anjali R.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80",
+      "imageHint": "woman face"
+    },
+    {
+      "id": "testimonial-avatar-4",
+      "description": "Avatar of Meera S.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80",
+      "imageHint": "man smiling"
     }
   ]
 }
