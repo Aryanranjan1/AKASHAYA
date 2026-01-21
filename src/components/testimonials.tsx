@@ -39,12 +39,12 @@ export function Testimonials() {
   return (
     <section className="bg-background">
       <div className="container mx-auto px-4 py-16 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-0 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-0 items-start relative">
             
-            <div className="lg:sticky top-24 text-center lg:text-left lg:pr-10 lg:border-r lg:border-accent/30">
+            <div className="lg:sticky top-24 text-center lg:text-left lg:pr-10">
                 <header className="flex flex-col items-center lg:items-start gap-2 mb-8">
                     <span className="font-body text-xs text-accent uppercase tracking-[3px] font-medium">Client Love</span>
-                    <div className="flex items-end gap-5 w-full">
+                    <div className="flex items-end justify-center lg:justify-start gap-5 w-full">
                         <h2 className="font-headline text-5xl text-primary leading-none whitespace-nowrap">Kind <i>Words</i></h2>
                         <div className="flex-grow h-px bg-gradient-to-r from-accent to-accent/20 mb-3 relative hidden lg:block">
                             <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-xl bg-background pl-2.5">❖</span>
@@ -67,6 +67,8 @@ export function Testimonials() {
                     <Link href="#">Write a Review</Link>
                 </Button>
             </div>
+
+            <div className="hidden lg:block absolute top-0 bottom-0 left-1/3 w-px bg-accent/30" />
 
             <div className="flex flex-col gap-8 lg:pl-10">
                 {testimonials.map((testimonial) => {
