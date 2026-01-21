@@ -1,8 +1,12 @@
+'use client';
+
 import Link from 'next/link';
 import { Search, User, ShoppingCart, Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { Logo } from './logo';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet';
+import { useState, useEffect, useRef } from 'react';
+import { cn } from '@/lib/utils';
 
 const navLinks = [
   { name: 'HOME', href: '/' },
@@ -12,8 +16,32 @@ const navLinks = [
 ];
 
 export function Header() {
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const controlHeader = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener('scroll', controlHeader, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', controlHeader);
+    };
+  }, []);
+
   return (
-    <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-40 border-b">
+    <header className={cn(
+      "bg-background/80 backdrop-blur-sm sticky top-0 z-40 border-b transition-transform duration-300 ease-in-out",
+      !isVisible && "-translate-y-full"
+    )}>
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <div className="flex items-center gap-4">
             {/* Mobile Menu */}
