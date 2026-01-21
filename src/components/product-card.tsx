@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Plus } from 'lucide-react';
 
 type ProductCardProps = {
   imageUrl: string;
@@ -17,31 +17,29 @@ export function ProductCard({
   imageHint,
   title,
   price,
-  buttonText,
 }: ProductCardProps) {
   return (
-    <Card className="overflow-hidden group w-full border-none shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 bg-background">
-      <CardContent className="p-0">
-        <div className="relative aspect-[3/4] overflow-hidden">
-          <Image
-            src={imageUrl}
-            alt={imageAlt}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-            data-ai-hint={imageHint}
-          />
-        </div>
-      </CardContent>
-      <div className="p-4 text-center">
-        <h3 className="font-semibold text-lg text-primary truncate">{title}</h3>
-        <p className="text-foreground/80 mt-1">{price}</p>
+    <div className="group w-full text-center">
+      <div className="relative aspect-[3/4] overflow-hidden">
+        <Image
+          src={imageUrl}
+          alt={imageAlt}
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+          data-ai-hint={imageHint}
+        />
       </div>
-      <CardFooter className="p-4 pt-0">
-        <Button variant="default" className="w-full bg-primary hover:bg-primary/90">
-          {buttonText}
+      <div className="mt-4 px-1">
+        <h3 className="font-semibold text-base text-foreground leading-tight">{title}</h3>
+        <p className="text-sm text-muted-foreground truncate mt-1">{imageAlt}</p>
+      </div>
+      <div className="mt-2">
+        <Button variant="ghost" className="text-accent-foreground/70 hover:bg-accent/10 hover:text-accent font-bold">
+          <Plus className="h-4 w-4 mr-1" />
+          {price}
         </Button>
-      </CardFooter>
-    </Card>
+      </div>
+    </div>
   );
 }

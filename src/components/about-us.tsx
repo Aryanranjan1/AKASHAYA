@@ -9,7 +9,7 @@ export function AboutUs() {
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
-          <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-xl">
+          <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
             {aboutUsImage && (
               <Image
                 src={aboutUsImage.imageUrl}
