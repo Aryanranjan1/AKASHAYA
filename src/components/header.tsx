@@ -29,7 +29,7 @@ export function Header() {
                     </Button>
                     </SheetTrigger>
                     <SheetContent side="left" className="w-[300px] bg-background p-6 flex flex-col">
-                        <Logo className="text-2xl mb-8" />
+                        <Logo className="mb-8" />
                         <nav>
                             <ul className="flex flex-col space-y-6">
                             {navLinks.map((link) => (
@@ -44,7 +44,7 @@ export function Header() {
                     </SheetContent>
                 </Sheet>
             </div>
-            <Logo className="hidden md:block text-2xl" />
+            <Logo className="hidden md:block" />
         </div>
 
         {/* Desktop Nav */}
@@ -62,7 +62,7 @@ export function Header() {
         
         {/* Logo for mobile */}
         <div className="md:hidden">
-            <Logo className="text-2xl"/>
+            <Logo />
         </div>
 
         {/* Icons */}
