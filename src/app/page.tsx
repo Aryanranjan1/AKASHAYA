@@ -5,7 +5,7 @@ import { AboutUs } from '@/components/about-us';
 import { Footer } from '@/components/footer';
 import { Testimonials } from '@/components/testimonials';
 import { Social } from '@/components/social';
-import { Faq } from '@/components/faq';
+import { BlogSection } from '@/components/blog-section';
 import { Stats } from '@/components/stats';
 import { ShopByCategory } from '@/components/shop-by-category';
 
@@ -21,7 +21,7 @@ export default function Home() {
         <AboutUs />
         <Testimonials />
         <Social />
-        <Faq />
+        <BlogSection />
       </main>
       <Footer />
     </div>

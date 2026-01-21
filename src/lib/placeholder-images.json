@@ -119,6 +119,42 @@
       "description": "Happy customer in Akshaya collection",
       "imageUrl": "https://images.unsplash.com/photo-1567958451986-2de427a4a0be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMGZhc2hpb258ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "customer fashion"
+    },
+    {
+      "id": "blog-1",
+      "description": "A close up of a handwoven saree",
+      "imageUrl": "https://images.unsplash.com/photo-1574756074371-1595df8708c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYW5kd292ZW4lMjBzYXJlZXxlbnwwfHx8fDE3NjkwMjU1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handwoven saree"
+    },
+    {
+      "id": "blog-2",
+      "description": "A model wearing a bright yellow kurta",
+      "imageUrl": "https://images.unsplash.com/photo-1681717165174-555b34f6a42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx5ZWxsb3clMjBrdXJ0YXxlbnwwfHx8fDE3NjkwMjU1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow kurta"
+    },
+    {
+      "id": "blog-3",
+      "description": "The intricate embroidery on a lehenga",
+      "imageUrl": "https://images.unsplash.com/photo-1767790693478-1cd359603ebc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsZWhlbmdhJTIwZW1icm9pZGVyeXxlbnwwfHx8fDE3NjkwMjU1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lehenga embroidery"
+    },
+    {
+      "id": "blog-4",
+      "description": "A collection of colorful silk threads",
+      "imageUrl": "https://images.unsplash.com/photo-1572097785264-3f53ac19793c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaWxrJTIwdGhyZWFkc3xlbnwwfHx8fDE3Njg5NzcyMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silk threads"
+    },
+    {
+      "id": "blog-5",
+      "description": "A woman trying on different bangles",
+      "imageUrl": "https://images.unsplash.com/photo-1760786933013-dbfe8ce220d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxldGhuaWMlMjBiYW5nbGVzfGVufDB8fHx8MTc2OTAyNTUyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethnic bangles"
+    },
+    {
+      "id": "avatar-author",
+      "description": "Avatar of a blog author",
+      "imageUrl": "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwZmFjZXxlbnwwfHx8fDE3Njg5NjUyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
     }
   ]
 }
