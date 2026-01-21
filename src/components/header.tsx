@@ -5,19 +5,16 @@ import { Logo } from './logo';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 
 const navLinks = [
-  { name: 'NEW ARRIVALS', href: '#' },
-  { name: 'SAREES', href: '#' },
-  { name: 'COTTON SUITS', href: '#' },
-  { name: 'LEHENGAS', href: '#' },
-  { name: 'PLUS SIZE', href: '#' },
-  { name: 'ABOUT US', href: '#' },
+  { name: 'HOME', href: '/' },
+  { name: 'COLLECTION', href: '#' },
+  { name: 'ABOUT', href: '#' },
   { name: 'CONTACT', href: '#' },
 ];
 
 export function Header() {
   return (
     <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-40 border-b">
-      <div className="container mx-auto px-4 flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <div className="flex items-center gap-4">
             {/* Mobile Menu */}
             <div className="md:hidden">
