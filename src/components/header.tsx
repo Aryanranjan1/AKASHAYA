@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Search, User, ShoppingCart, Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { Logo } from './logo';
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet';
 
 const navLinks = [
   { name: 'HOME', href: '/' },
@@ -26,6 +26,9 @@ export function Header() {
                     </Button>
                     </SheetTrigger>
                     <SheetContent side="left" className="w-[300px] bg-background p-6 flex flex-col">
+                        <SheetHeader>
+                            <SheetTitle className="sr-only">Menu</SheetTitle>
+                        </SheetHeader>
                         <Logo className="mb-8" />
                         <nav>
                             <ul className="flex flex-col space-y-6">
