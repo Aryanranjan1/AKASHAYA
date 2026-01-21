@@ -15,25 +15,19 @@ export function NewsletterSubscription() {
               <p className="mt-4 text-base text-foreground/80">
                 Be the first to know about new arrivals, exclusive offers, and the latest trends in ethnic fashion. Subscribe to our newsletter and get updates delivered straight to your inbox.
               </p>
-              <form className="mt-8 flex flex-col gap-4">
-                <Input 
-                  type="text" 
-                  placeholder="Name" 
-                  className="bg-card border-input"
-                  aria-label="Name"
-                />
+              <form className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Input 
                   type="email" 
                   placeholder="Email Address" 
-                  className="bg-card border-input"
+                  className="bg-card border-input flex-grow"
                   aria-label="Email Address"
                 />
-                <Button type="submit" variant="default" className="bg-accent text-accent-foreground hover:bg-accent/90">
+                <Button type="submit">
                   SUBSCRIBE
                 </Button>
               </form>
             </div>
-            <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
+            <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-lg">
                 {newsletterImage && (
                     <Image
                         src={newsletterImage.imageUrl}

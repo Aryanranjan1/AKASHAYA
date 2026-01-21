@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "hero-main",
+      "description": "Woman in beautiful ethnic wear",
+      "imageUrl": "https://images.unsplash.com/photo-1630420897767-c49c43ef2c1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxldGhuaWMlMjBmYXNoaW9ufGVufDB8fHx8MTc2ODkwODE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethnic fashion"
+    },
+    {
       "id": "hero-left",
       "description": "Model wearing a 100 Count Kanchi Cotton Plain Saree",
       "imageUrl": "https://images.unsplash.com/photo-1761124739031-9db4207f67c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNhcmVlfGVufDB8fHx8MTc2OTAwOTk2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
