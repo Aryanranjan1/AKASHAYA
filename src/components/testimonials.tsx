@@ -1,3 +1,4 @@
+
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { CheckCircle, Star } from 'lucide-react';
 import Image from 'next/image';
@@ -39,9 +40,9 @@ export function Testimonials() {
   return (
     <section className="bg-background">
       <div className="container mx-auto px-4 py-16 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-0 items-start">
             
-            <div className="lg:sticky top-24 text-center lg:text-left">
+            <div className="lg:sticky top-24 text-center lg:text-left lg:pr-10 lg:border-r lg:border-border/50">
                 <header className="flex flex-col items-center lg:items-start gap-2 mb-8">
                     <span className="font-body text-xs text-accent uppercase tracking-[3px] font-medium">Client Love</span>
                     <div className="flex items-end gap-5 w-full">
@@ -68,11 +69,11 @@ export function Testimonials() {
                 </Button>
             </div>
 
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8 lg:pl-10">
                 {testimonials.map((testimonial) => {
                   const imageData = PlaceHolderImages.find((img) => img.id === testimonial.id);
                   return (
-                    <article key={testimonial.name} className="bg-card/50 border border-border/50 p-8 lg:p-10 relative transition-all duration-300 hover:bg-background hover:shadow-xl hover:border-accent/30 hover:-translate-y-1">
+                    <article key={testimonial.name} className="bg-card/50 border border-border/50 p-8 lg:p-10 relative transition-colors duration-300 hover:bg-background hover:outline hover:outline-2 hover:outline-accent">
                         <div className="absolute top-5 right-8 font-headline text-[8rem] leading-none text-accent/10 select-none pointer-events-none">“</div>
                         
                         <div className="flex items-center gap-4 mb-5">
