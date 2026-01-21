@@ -6,6 +6,7 @@ import { Footer } from '@/components/footer';
 import { Testimonials } from '@/components/testimonials';
 import { Social } from '@/components/social';
 import { Faq } from '@/components/faq';
+import { Stats } from '@/components/stats';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <HeroSection />
+        <Stats />
         <FeaturedCollections />
         <AboutUs />
         <Testimonials />
