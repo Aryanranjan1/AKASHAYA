@@ -1,6 +1,6 @@
 import { Header } from '@/components/header';
 import { HeroSection } from '@/components/hero';
-import { FeaturedCollections } from '@/components/featured-collections';
+import { ProductCarousel } from '@/components/product-carousel';
 import { AboutUs } from '@/components/about-us';
 import { Footer } from '@/components/footer';
 import { Testimonials } from '@/components/testimonials';
@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex-grow">
         <HeroSection />
         <Stats />
-        <FeaturedCollections />
+        <ProductCarousel />
         <HeritageSeries />
         <AboutUs />
         <Testimonials />

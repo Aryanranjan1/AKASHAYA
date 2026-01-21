@@ -185,6 +185,66 @@
       "description": "Avatar of Meera S.",
       "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80",
       "imageHint": "man smiling"
+    },
+    {
+      "id": "carousel-product-1-front",
+      "description": "Front view of a maroon anarkali suit",
+      "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "anarkali suit"
+    },
+    {
+      "id": "carousel-product-1-back",
+      "description": "Detail view of a maroon anarkali suit embroidery",
+      "imageUrl": "https://images.unsplash.com/photo-1583391726247-04b4f7b40e32?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "anarkali embroidery"
+    },
+    {
+      "id": "carousel-product-2-front",
+      "description": "Woman wearing an indigo block print kurti",
+      "imageUrl": "https://images.unsplash.com/photo-1629559885741-6944e85741f0?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "indigo kurti"
+    },
+    {
+      "id": "carousel-product-2-back",
+      "description": "Side view of a woman wearing an indigo block print kurti",
+      "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "indigo kurti side"
+    },
+    {
+      "id": "carousel-product-3-front",
+      "description": "A beautiful Kanchi cotton saree",
+      "imageUrl": "https://images.unsplash.com/photo-1596700877983-5003c20c02c9?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "kanchi saree"
+    },
+    {
+      "id": "carousel-product-3-back",
+      "description": "Close up of the Kanchi cotton saree fabric",
+      "imageUrl": "https://images.unsplash.com/photo-1601366112959-195c808f906e?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "saree fabric"
+    },
+    {
+      "id": "carousel-product-4-front",
+      "description": "A woman in a pastel colored silk saree",
+      "imageUrl": "https://images.unsplash.com/photo-1576510344275-c081e648c3a9?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "silk saree"
+    },
+    {
+      "id": "carousel-product-4-back",
+      "description": "A woman in a pastel colored silk saree, different pose",
+      "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "silk saree pose"
+    },
+    {
+      "id": "carousel-product-5-front",
+      "description": "A folded Banarasi dupatta with intricate patterns",
+      "imageUrl": "https://images.unsplash.com/photo-1583391726247-04b4f7b40e32?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "banarasi dupatta"
+    },
+    {
+      "id": "carousel-product-5-back",
+      "description": "A woman wearing a Banarasi dupatta",
+      "imageUrl": "https://images.unsplash.com/photo-1629559885741-6944e85741f0?auto=format&fit=crop&w=600&q=80",
+      "imageHint": "banarasi dupatta worn"
     }
   ]
 }
