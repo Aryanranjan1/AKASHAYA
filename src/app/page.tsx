@@ -1,11 +1,11 @@
 import { Header } from '@/components/header';
 import { HeroSection } from '@/components/hero';
 import { FeaturedCollections } from '@/components/featured-collections';
-import { LatestArrivals } from '@/components/latest-arrivals';
 import { AboutUs } from '@/components/about-us';
-import { InfoBlock } from '@/components/info-block';
-import { NewsletterSubscription } from '@/components/newsletter-subscription';
 import { Footer } from '@/components/footer';
+import { Testimonials } from '@/components/testimonials';
+import { Social } from '@/components/social';
+import { Faq } from '@/components/faq';
 
 export default function Home() {
   return (
@@ -14,10 +14,10 @@ export default function Home() {
       <main className="flex-grow">
         <HeroSection />
         <FeaturedCollections />
-        <LatestArrivals />
         <AboutUs />
-        <InfoBlock />
-        <NewsletterSubscription />
+        <Testimonials />
+        <Social />
+        <Faq />
       </main>
       <Footer />
     </div>

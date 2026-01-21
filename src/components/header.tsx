@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import { Search, User, ShoppingCart } from 'lucide-react';
+import { Search, User, ShoppingCart, Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { Logo } from './logo';
+import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 
 const navLinks = [
   { name: 'NEW ARRIVALS', href: '#' },
@@ -15,14 +16,57 @@ const navLinks = [
 
 export function Header() {
   return (
-    <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-40">
-      <div className="container mx-auto px-4">
-        {/* Top Bar */}
-        <div className="flex items-center justify-between h-14 border-b">
-          <div className="text-sm text-foreground/70">
-            Malaysia | Singapore
-          </div>
-          <div className="flex items-center space-x-2 md:space-x-4">
+    <header className="bg-background/80 backdrop-blur-sm sticky top-0 z-40 border-b">
+      <div className="container mx-auto px-4 flex items-center justify-between h-20">
+        <div className="flex items-center gap-4">
+            {/* Mobile Menu */}
+            <div className="md:hidden">
+                <Sheet>
+                    <SheetTrigger asChild>
+                    <Button variant="ghost" size="icon">
+                        <Menu className="h-6 w-6" />
+                        <span className="sr-only">Open menu</span>
+                    </Button>
+                    </SheetTrigger>
+                    <SheetContent side="left" className="w-[300px] bg-background p-6 flex flex-col">
+                        <Logo className="text-2xl mb-8" />
+                        <nav>
+                            <ul className="flex flex-col space-y-6">
+                            {navLinks.map((link) => (
+                                <li key={link.name}>
+                                    <Link href={link.href} className="text-lg text-foreground hover:text-accent transition-colors tracking-wider">
+                                        {link.name}
+                                    </Link>
+                                </li>
+                            ))}
+                            </ul>
+                        </nav>
+                    </SheetContent>
+                </Sheet>
+            </div>
+            <Logo className="hidden md:block text-2xl" />
+        </div>
+
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex">
+            <ul className="flex items-center space-x-6 text-sm font-medium">
+                {navLinks.map((link) => (
+                <li key={link.name}>
+                    <Link href={link.href} className="text-foreground hover:text-accent transition-colors tracking-wider">
+                    {link.name}
+                    </Link>
+                </li>
+                ))}
+            </ul>
+        </nav>
+        
+        {/* Logo for mobile */}
+        <div className="md:hidden">
+            <Logo className="text-2xl"/>
+        </div>
+
+        {/* Icons */}
+        <div className="flex items-center space-x-2">
             <Button variant="ghost" size="icon" aria-label="Search">
               <Search className="h-5 w-5" />
             </Button>
@@ -33,26 +77,7 @@ export function Header() {
               <ShoppingCart className="h-5 w-5" />
               <span className="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">0</span>
             </Button>
-          </div>
         </div>
-
-        {/* Logo */}
-        <div className="py-6 text-center">
-          <Logo />
-        </div>
-
-        {/* Navigation */}
-        <nav className="border-t">
-          <ul className="flex items-center justify-center space-x-4 md:space-x-8 h-12 text-sm font-medium overflow-x-auto">
-            {navLinks.map((link) => (
-              <li key={link.name} className="flex-shrink-0">
-                <Link href={link.href} className="text-foreground hover:text-accent transition-colors tracking-wider">
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
       </div>
     </header>
   );

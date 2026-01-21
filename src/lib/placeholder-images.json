@@ -83,6 +83,42 @@
       "description": "Woman in ethnic wear smiling",
       "imageUrl": "https://images.unsplash.com/photo-1727621042756-b4e1b648ae85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxldGhuaWMlMjBzbWlsZXxlbnwwfHx8fDE3NjkwMTA0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ethnic smile"
+    },
+    {
+      "id": "social-1",
+      "description": "Woman showing off her beautiful saree",
+      "imageUrl": "https://images.unsplash.com/photo-1610189019555-b1e26c2e424d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYXJlZSUyMGZhc2hpb258ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "saree fashion"
+    },
+    {
+      "id": "social-2",
+      "description": "Close up on a colorful fabric",
+      "imageUrl": "https://images.unsplash.com/photo-1706541185904-7a62722c5b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxldGhuaWMlMjBmYWJyaWN8ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethnic fabric"
+    },
+    {
+      "id": "social-3",
+      "description": "Model posing in an elegant kurta",
+      "imageUrl": "https://images.unsplash.com/photo-1767796704750-d685fb2a2143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrdXJ0YSUyMHN0eWxlfGVufDB8fHx8MTc2OTAyMzY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kurta style"
+    },
+    {
+      "id": "social-4",
+      "description": "Woman smiling in traditional Indian attire",
+      "imageUrl": "https://images.unsplash.com/photo-1637068088888-328ff239c689?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBhdHRpcmV8ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian attire"
+    },
+    {
+      "id": "social-5",
+      "description": "Details of a handloom saree",
+      "imageUrl": "https://images.unsplash.com/photo-1743551653480-25bca3383577?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kbG9vbSUyMHNhcmVlfGVufDB8fHx8MTc2OTAyMzY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handloom saree"
+    },
+    {
+      "id": "social-6",
+      "description": "Happy customer in Akshaya collection",
+      "imageUrl": "https://images.unsplash.com/photo-1567958451986-2de427a4a0be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMGZhc2hpb258ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "customer fashion"
     }
   ]
 }
