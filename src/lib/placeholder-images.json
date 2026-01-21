@@ -71,6 +71,12 @@
       "description": "Model in a beautiful Akshaya saree",
       "imageUrl": "https://images.unsplash.com/photo-1763017707678-2ab848ab2808?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiZWF1dGlmdWwlMjBzYXJlZXxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "beautiful saree"
+    },
+    {
+      "id": "newsletter-image",
+      "description": "Woman in ethnic wear smiling",
+      "imageUrl": "https://images.unsplash.com/photo-1727621042756-b4e1b648ae85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxldGhuaWMlMjBzbWlsZXxlbnwwfHx8fDE3NjkwMTA0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethnic smile"
     }
   ]
 }
