@@ -1,5 +1,4 @@
 import { Header } from '@/components/header';
-import { HeroSection } from '@/components/hero';
 import { FeaturedCollections } from '@/components/featured-collections';
 import { LatestArrivals } from '@/components/latest-arrivals';
 import { AboutUs } from '@/components/about-us';
@@ -12,7 +11,6 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">
-        <HeroSection />
         <FeaturedCollections />
         <LatestArrivals />
         <AboutUs />
