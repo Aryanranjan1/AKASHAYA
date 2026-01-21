@@ -87,38 +87,44 @@
     {
       "id": "social-1",
       "description": "Woman showing off her beautiful saree",
-      "imageUrl": "https://images.unsplash.com/photo-1610189019555-b1e26c2e424d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYXJlZSUyMGZhc2hpb258ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "saree fashion"
+      "imageUrl": "https://images.unsplash.com/photo-1761125135351-268e72e39158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYXJlZSUyMHN0eWxlfGVufDB8fHx8MTc2OTAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "saree style"
     },
     {
       "id": "social-2",
       "description": "Close up on a colorful fabric",
-      "imageUrl": "https://images.unsplash.com/photo-1706541185904-7a62722c5b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxldGhuaWMlMjBmYWJyaWN8ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ethnic fabric"
+      "imageUrl": "https://images.unsplash.com/photo-1760162690638-743ba3c1d4f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxldGhuaWMlMjBmYXNoaW9ufGVufDB8fHx8MTc2ODkwODE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethnic fashion"
     },
     {
       "id": "social-3",
       "description": "Model posing in an elegant kurta",
-      "imageUrl": "https://images.unsplash.com/photo-1767796704750-d685fb2a2143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrdXJ0YSUyMHN0eWxlfGVufDB8fHx8MTc2OTAyMzY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kurta style"
+      "imageUrl": "https://images.unsplash.com/photo-1623537873757-e90e188eeaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuZXclMjBjb2xsZWN0aW9ufGVufDB8fHx8MTc2OTAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "new collection"
     },
     {
       "id": "social-4",
       "description": "Woman smiling in traditional Indian attire",
-      "imageUrl": "https://images.unsplash.com/photo-1637068088888-328ff239c689?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBhdHRpcmV8ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "indian attire"
+      "imageUrl": "https://images.unsplash.com/photo-1651041577175-e75c2da20682?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiZWhpbmQlMjBzY2VuZXN8ZW58MHx8fHwxNzY4OTk1MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "behind scenes"
     },
     {
       "id": "social-5",
       "description": "Details of a handloom saree",
-      "imageUrl": "https://images.unsplash.com/photo-1743551653480-25bca3383577?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kbG9vbSUyMHNhcmVlfGVufDB8fHx8MTc2OTAyMzY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "handloom saree"
+      "imageUrl": "https://images.unsplash.com/photo-1726931535215-e4c6e05a2cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXJ0aXNhbiUyMHN0b3J5fGVufDB8fHx8MTc2OTAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artisan story"
     },
     {
       "id": "social-6",
       "description": "Happy customer in Akshaya collection",
-      "imageUrl": "https://images.unsplash.com/photo-1567958451986-2de427a4a0be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMGZhc2hpb258ZW58MHx8fHwxNzY5MDIzNjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "customer fashion"
+      "imageUrl": "https://images.unsplash.com/photo-1734660427888-78a01fe933e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZXN0aXZlJTIwZWRpdHxlbnwwfHx8fDE3NjkwMjc2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "festive edit"
+    },
+    {
+      "id": "social-7",
+      "description": "A happy customer in our collection",
+      "imageUrl": "https://images.unsplash.com/photo-1758524055712-6588a2ce9106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdXN0b21lciUyMGxvdmV8ZW58MHx8fHwxNzY5MDI3NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "customer love"
     },
     {
       "id": "blog-1",
