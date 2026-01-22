@@ -21,7 +21,7 @@ const stats = [
 export function Stats() {
   return (
     <section className="bg-card">
-      <div className="container mx-auto px-4 py-8 md:py-12">
+      <div className="container mx-auto px-4 pt-8 md:pt-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center">
