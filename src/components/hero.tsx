@@ -1,13 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { PlayCircle } from 'lucide-react';
 
 export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
 
   return (
-    <section id="hero-section" className="relative flex w-full items-center overflow-hidden bg-black h-screen">
+    <section id="hero-section" className="relative flex w-full items-start pt-32 sm:pt-40 md:pt-48 overflow-hidden bg-black h-screen">
       
       {/* Frame */}
       <div className="absolute inset-[3%] border border-white/30 z-10 pointer-events-none">
@@ -32,12 +31,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-[5] w-full pl-8 sm:pl-12 md:pl-24">
-        <div className="max-w-[60%]">
-          <div className="mb-4 flex items-center gap-4 font-body text-sm font-medium uppercase tracking-widest text-accent">
-            <div className="h-px w-10 bg-accent" />
-            <span>Est. 2025 • Sungai Petani</span>
-          </div>
-
+        <div className="max-w-[55%]">
           <h1 className="mb-6 font-headline text-5xl md:text-6xl lg:text-7xl font-light leading-none text-white">
             Weaving Heritage <br /> into <span className="italic text-accent">Elegance</span>
           </h1>
