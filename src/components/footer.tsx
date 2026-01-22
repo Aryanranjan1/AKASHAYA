@@ -16,18 +16,28 @@ const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground font-body">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div className="container mx-auto px-4 py-16 relative">
+
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg">
+            <div className="w-full border-t border-accent/20" />
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <span className="bg-primary px-4 text-accent text-2xl">
+                ❖
+              </span>
+            </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-12">
           
           <div className="lg:col-span-4">
             <div className="mb-6 flex items-center gap-4">
                 <Crown className="w-8 h-8 text-accent"/>
                 <Logo variant="golden" />
             </div>
-            <p className="text-sm leading-relaxed text-primary-foreground/80 max-w-sm mb-6">
+            <p className="text-sm leading-relaxed text-primary-foreground/70 max-w-sm mb-6 font-light">
               Curating legacies, one six-yard story at a time. Akshaya is your sanctuary for authentic, uncompromising elegance.
             </p>
-             <div className="space-y-3 text-sm text-primary-foreground/80">
+             <div className="space-y-3 text-sm text-primary-foreground/70 font-light">
               <p>57 Lorong Emilia 3, 08000 Sungai Petani, Kedah</p>
               <p>Phone: +60 12-345 6789</p>
               <p>Email: info@akshayaexclusive.com</p>
@@ -36,26 +46,26 @@ export function Footer() {
           
           <div className="lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-headline text-lg mb-4 text-accent">Our Collections</h3>
-              <ul className="space-y-2">
+              <h3 className="font-headline text-lg mb-4 text-accent tracking-wider">Collections</h3>
+              <ul className="space-y-2.5">
                 {collections.map(link => (
-                  <li key={link}><Link href="#" className="hover:text-accent transition-colors text-sm text-primary-foreground/80">{link}</Link></li>
+                  <li key={link}><Link href="#" className="hover:text-accent transition-colors text-sm text-primary-foreground/70 font-light">{link}</Link></li>
                 ))}
               </ul>
             </div>
             <div>
-              <h3 className="font-headline text-lg mb-4 text-accent">Useful Links</h3>
-              <ul className="space-y-2">
+              <h3 className="font-headline text-lg mb-4 text-accent tracking-wider">Company</h3>
+              <ul className="space-y-2.5">
                 {usefulLinks.map(link => (
-                  <li key={link}><Link href="#" className="hover:text-accent transition-colors text-sm text-primary-foreground/80">{link}</Link></li>
+                  <li key={link}><Link href="#" className="hover:text-accent transition-colors text-sm text-primary-foreground/70 font-light">{link}</Link></li>
                 ))}
               </ul>
             </div>
             <div>
-              <h3 className="font-headline text-lg mb-4 text-accent">Customer Care</h3>
-              <ul className="space-y-2">
+              <h3 className="font-headline text-lg mb-4 text-accent tracking-wider">Support</h3>
+              <ul className="space-y-2.5">
                 {customerCare.map(link => (
-                  <li key={link}><Link href="#" className="hover:text-accent transition-colors text-sm text-primary-foreground/80">{link}</Link></li>
+                  <li key={link}><Link href="#" className="hover:text-accent transition-colors text-sm text-primary-foreground/70 font-light">{link}</Link></li>
                 ))}
               </ul>
             </div>
@@ -63,16 +73,16 @@ export function Footer() {
         </div>
       </div>
       
-      <div className="border-t border-primary-foreground/20">
-        <div className="container mx-auto px-4 py-5 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-primary-foreground/60 text-center sm:text-left">
+      <div className="border-t border-primary-foreground/10">
+        <div className="container mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-xs text-primary-foreground/50 text-center sm:text-left">
             © 2024 Akshaya Exclusive. All Rights Reserved.
           </p>
-          <div className="flex items-center gap-4">
-            <Link href="#" aria-label="Facebook" className="text-primary-foreground/80 hover:text-accent transition-colors"><Facebook className="w-5 h-5" /></Link>
-            <Link href="#" aria-label="Instagram" className="text-primary-foreground/80 hover:text-accent transition-colors"><Instagram className="w-5 h-5" /></Link>
-            <Link href="#" aria-label="TikTok" className="text-primary-foreground/80 hover:text-accent transition-colors"><TikTokIcon className="w-5 h-5" /></Link>
-            <Link href="#" aria-label="WhatsApp" className="text-primary-foreground/80 hover:text-accent transition-colors"><MessageSquare className="w-5 h-5" /></Link>
+          <div className="flex items-center gap-5">
+            <Link href="#" aria-label="Facebook" className="text-primary-foreground/70 hover:text-accent transition-colors"><Facebook className="w-5 h-5" /></Link>
+            <Link href="#" aria-label="Instagram" className="text-primary-foreground/70 hover:text-accent transition-colors"><Instagram className="w-5 h-5" /></Link>
+            <Link href="#" aria-label="TikTok" className="text-primary-foreground/70 hover:text-accent transition-colors"><TikTokIcon className="w-5 h-5" /></Link>
+            <Link href="#" aria-label="WhatsApp" className="text-primary-foreground/70 hover:text-accent transition-colors"><MessageSquare className="w-5 h-5" /></Link>
           </div>
         </div>
       </div>
