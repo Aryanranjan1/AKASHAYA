@@ -1,39 +1,55 @@
-import { Heart, Palette, Shirt } from 'lucide-react';
+import { Heart, Layers, Shirt } from 'lucide-react';
+import React from 'react';
 
-const stats = [
+const statsData = [
   {
     icon: Heart,
-    value: "98%",
-    label: "Customer Satisfaction"
+    number: "98",
+    suffix: "%",
+    label: "Happy Clients"
   },
   {
-    icon: Palette,
-    value: "1,200+",
+    icon: Layers,
+    number: "1.2k",
+    suffix: "+",
     label: "Unique Designs"
   },
   {
     icon: Shirt,
-    value: "50+",
-    label: "New Styles Weekly"
+    number: "50",
+    suffix: "+",
+    label: "New Weekly"
   }
 ];
 
+const StatItem = ({ icon: Icon, number, suffix, label }: typeof statsData[0]) => (
+    <div className="stat-item flex-1 text-center px-1 sm:px-2.5">
+        <Icon className="text-accent text-lg sm:text-xl md:text-2xl mb-1.5 sm:mb-2.5 mx-auto opacity-90" aria-hidden="true"/>
+        <span className="stat-number font-headline text-3xl sm:text-4xl md:text-5xl text-white leading-none block mb-1 whitespace-nowrap">
+            {number}
+            <span className="text-accent">{suffix}</span>
+        </span>
+        <span className="stat-label font-body text-[0.55rem] sm:text-[0.7rem] md:text-xs uppercase tracking-wider md:tracking-[2px] text-white/80 font-light block leading-tight">
+            {label}
+        </span>
+    </div>
+);
+
+const Divider = () => (
+    <div className="h-[30px] md:h-[50px] w-px bg-gradient-to-b from-transparent via-accent to-transparent opacity-40" />
+);
+
 export function Stats() {
   return (
-    <section className="bg-muted">
-      <div className="container mx-auto px-4 py-4 md:py-6">
-        <div className="grid grid-cols-3 gap-2 md:gap-4">
-          {stats.map((stat, index) => (
-            <div key={index} className="flex items-center justify-center gap-2 md:gap-4">
-              <div className="flex-shrink-0 rounded-full bg-primary/10 p-2 text-primary md:p-3">
-                <stat.icon className="h-5 w-5 md:h-7 md:w-7" />
-              </div>
-              <div className="text-left">
-                <p className="text-lg font-bold text-foreground md:text-2xl">{stat.value}</p>
-                <p className="text-[10px] leading-tight text-secondary md:text-xs">{stat.label}</p>
-              </div>
-            </div>
-          ))}
+    <section id="stat-strip" className="bg-primary py-6 md:py-10 border-y border-accent/30">
+      <div className="container mx-auto px-2 sm:px-5">
+        <div className="flex justify-around items-center">
+            {statsData.map((stat, index) => (
+                <React.Fragment key={stat.label}>
+                    <StatItem {...stat} />
+                    {index < statsData.length - 1 && <Divider />}
+                </React.Fragment>
+            ))}
         </div>
       </div>
     </section>
