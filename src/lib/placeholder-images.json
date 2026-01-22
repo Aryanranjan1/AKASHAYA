@@ -182,63 +182,63 @@
     },
     {
       "id": "carousel-product-1-front",
-      "description": "Front view of a maroon anarkali suit",
+      "description": "Front view of an artisan anarkali suit",
       "imageUrl": "https://images.unsplash.com/photo-1745313452052-0e4e341f326c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "anarkali suit"
     },
     {
       "id": "carousel-product-1-back",
-      "description": "Detail view of a maroon anarkali suit embroidery",
+      "description": "Detailed view of an artisan anarkali suit",
       "imageUrl": "https://images.pexels.com/photos/7752214/pexels-photo-7752214.jpeg",
       "imageHint": "anarkali embroidery"
     },
     {
       "id": "carousel-product-2-front",
-      "description": "Woman wearing an indigo block print kurti",
-      "imageUrl": "https://images.unsplash.com/photo-1620216464335-55936a282361?w=800&auto=format&fit=crop&q=60",
-      "imageHint": "indigo kurti"
+      "description": "Woman wearing a Lucknowi Chikankari kurti",
+      "imageUrl": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "imageHint": "chikankari kurti"
     },
     {
       "id": "carousel-product-2-back",
-      "description": "Side view of a woman wearing an indigo block print kurti",
-      "imageUrl": "https://images.pexels.com/photos/30703870/pexels-photo-30703870.jpeg",
-      "imageHint": "indigo fabric"
+      "description": "Woman posing in a beautiful saree",
+      "imageUrl": "https://images.pexels.com/photos/17360615/pexels-photo-17360615.jpeg",
+      "imageHint": "saree style"
     },
     {
       "id": "carousel-product-3-front",
       "description": "A beautiful Kanchi cotton saree",
-      "imageUrl": "https://images.unsplash.com/photo-1741847639057-b51a25d42892?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
       "imageHint": "kanchi saree"
     },
     {
       "id": "carousel-product-3-back",
-      "description": "Close up of the Kanchi cotton saree fabric",
-      "imageUrl": "https://images.pexels.com/photos/33124031/pexels-photo-33124031.jpeg",
-      "imageHint": "saree fabric"
+      "description": "Close up of a Kanchi cotton saree with temple border",
+      "imageUrl": "https://images.unsplash.com/photo-1741847639057-b51a25d42892?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "saree border"
     },
     {
       "id": "carousel-product-4-front",
       "description": "A woman in a pastel colored silk saree",
-      "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "silk saree"
     },
     {
       "id": "carousel-product-4-back",
-      "description": "A woman in a pastel colored silk saree, different pose",
-      "imageUrl": "https://images.unsplash.com/photo-1620799140418-36a5c19e5a30?w=800&auto=format&fit=crop&q=60",
-      "imageHint": "silk fabric"
+      "description": "Details of a handloom saree fabric",
+      "imageUrl": "https://images.pexels.com/photos/33124031/pexels-photo-33124031.jpeg",
+      "imageHint": "saree fabric"
     },
     {
       "id": "carousel-product-5-front",
-      "description": "A folded Banarasi dupatta with intricate patterns",
-      "imageUrl": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A festive Banarasi dupatta",
+      "imageUrl": "https://images.unsplash.com/photo-1729146768775-3662af38016e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "banarasi dupatta"
     },
     {
       "id": "carousel-product-5-back",
-      "description": "A woman wearing a Banarasi dupatta",
-      "imageUrl": "https://images.unsplash.com/photo-1642132652873-774b43f9a7d6?w=800&auto=format&fit=crop&q=60",
-      "imageHint": "dupatta detail"
+      "description": "Close up of colorful ethnic fabric",
+      "imageUrl": "https://images.pexels.com/photos/30703870/pexels-photo-30703870.jpeg",
+      "imageHint": "ethnic fabric"
     }
   ]
 }

@@ -1,7 +1,7 @@
 export const carouselProducts = [
   {
     id: 'product-1',
-    name: 'Maroon Anarkali Set',
+    name: 'Artisan Anarkali Set',
     price: 'RM 245.00',
     oldPrice: null,
     badge: 'New',
@@ -10,7 +10,7 @@ export const carouselProducts = [
   },
   {
     id: 'product-2',
-    name: 'Indigo Block Print',
+    name: 'Lucknowi Kurti',
     price: 'RM 180.00',
     oldPrice: null,
     badge: null,
@@ -19,7 +19,7 @@ export const carouselProducts = [
   },
   {
     id: 'product-3',
-    name: 'Kanchi Cotton #45',
+    name: 'Kanchi Cotton Saree',
     price: 'RM 320.00',
     oldPrice: 'RM 400',
     badge: '-20%',
@@ -37,7 +37,7 @@ export const carouselProducts = [
   },
   {
     id: 'product-5',
-    name: 'Banarasi Dupatta',
+    name: 'Festive Banarasi',
     price: 'RM 120.00',
     oldPrice: null,
     badge: null,
