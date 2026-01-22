@@ -6,7 +6,10 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
 
   return (
-    <section id="hero-section" className="relative flex w-full items-center overflow-hidden bg-background h-screen">
+    <section 
+      id="hero-section" 
+      className="relative flex w-full items-end justify-start pb-20 overflow-hidden bg-background h-screen text-left md:items-center md:pb-0 md:justify-start"
+    >
       
       {/* Frame */}
       <div className="absolute inset-[3%] border border-white/30 z-10 pointer-events-none">
@@ -22,7 +25,7 @@ export function HeroSection() {
             src={heroImage.imageUrl}
             alt={heroImage.description}
             fill
-            className="object-cover opacity-90"
+            className="object-cover opacity-90 object-[-150px_center] md:object-center"
             priority
             data-ai-hint={heroImage.imageHint}
           />
@@ -30,22 +33,20 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-[5] flex w-full justify-center px-4 md:justify-start md:px-0 md:pl-24">
-        <div className="max-w-[85%] text-center sm:max-w-[70%] md:max-w-[55%] md:text-left">
+      <div className="relative z-[5] w-full px-8 md:px-0 md:pl-24 md:max-w-[55%]">
           <h1 className="mb-6 font-headline text-5xl font-light leading-none text-white md:text-6xl lg:text-7xl">
             Weaving Heritage <br /> into <span className="italic text-accent">Elegance</span>
           </h1>
           
-          <p className="mx-auto mb-8 max-w-md font-body text-base font-light leading-relaxed text-white/90 md:mx-0 md:max-w-[85%] md:border-l md:border-white/30 md:pl-6 md:text-lg">
+          <p className="mb-8 max-w-md font-body text-base font-light leading-relaxed text-white/90 md:max-w-[85%] md:border-l md:border-white/30 md:pl-6 md:text-lg">
             Discover the authentic artistry of Kanchi Cotton and Banarasi Silk. Curated for the modern woman who carries tradition with grace.
           </p>
           
-          <div className="flex justify-center gap-4 md:justify-start">
-            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-primary bg-primary px-6 py-3 font-body text-xs uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary/90 md:px-8 md:py-4 md:text-sm">
+          <div className="flex md:justify-start">
+            <Link href="#" className="w-full flex items-center justify-center whitespace-nowrap border border-primary bg-primary px-6 py-3 font-body text-xs uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary/90 md:w-auto md:px-8 md:py-4 md:text-sm">
                 Shop New Arrivals
             </Link>
           </div>
-        </div>
       </div>
     </section>
   );
