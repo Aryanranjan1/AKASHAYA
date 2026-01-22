@@ -3,7 +3,7 @@
     {
       "id": "hero-main",
       "description": "Woman in a beautiful gold and white saree",
-      "imageUrl": "https://image2url.com/r2/default/images/1769048033923-281ddae1-ba5c-4c97-a510-050940dfde40.png",
+      "imageUrl": "https://image2url.com/r2/default/images/1769054007924-31c3db05-cad1-4095-8613-fec8dd90a708.png",
       "imageHint": "woman saree"
     },
     {
@@ -33,26 +33,20 @@
     {
       "id": "featured-banarasi-silk",
       "description": "Model in a Banarasi Silk Suit",
-      "imageUrl": "https://images.unsplash.com/photo-1574781824015-6dc89cb75ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaWxrJTIwc3VpdHxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "silk suit"
     },
     {
-      "id": "featured-aline-cotton",
-      "description": "Model in an Aline Cotton Suit",
-      "imageUrl": "https://images.unsplash.com/photo-1763719161899-701a2f80c890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3R0b24lMjBzdWl0fGVufDB8fHx8MTc2OTAwOTk2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cotton suit"
+      "id": "latest-coord-set",
+      "description": "Stylish Cotton Co-ord Set",
+      "imageUrl": "https://images.unsplash.com/photo-1745313452052-0e4e341f326c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "coord set"
     },
     {
       "id": "featured-chikankari",
       "description": "Model in a Chikankari Kurta Set",
       "imageUrl": "https://images.unsplash.com/photo-1759840278361-f1adc75529a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxrdXJ0YSUyMHNldHxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kurta set"
-    },
-    {
-      "id": "latest-coord-set",
-      "description": "Stylish Cotton Co-ord Set",
-      "imageUrl": "https://images.unsplash.com/photo-1767077280626-ff65a37f84d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb29yZCUyMHNldHxlbnwwfHx8fDE3NjkwMDk5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "coord set"
     },
     {
       "id": "latest-anarkali",
@@ -69,7 +63,7 @@
     {
       "id": "latest-festive-saree",
       "description": "Traditional Festive Saree",
-      "imageUrl": "https://images.unsplash.com/photo-1761125050285-e2d4eef393cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmZXN0aXZlJTIwc2FyZWV8ZW58MHx8fHwxNzY5MDA5OTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1729146768775-3662af38016e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "festive saree"
     },
     {
