@@ -14,15 +14,15 @@ export function HeroSection() {
         <div className="absolute -bottom-px -right-px h-[15%] w-[10%] border-r-2 border-b-2 border-accent" />
       </div>
 
-      {/* Background */}
-      <div className="absolute inset-0 z-[1]">
-        <div className="absolute inset-0 z-[2] bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
+      {/* Background Image Container */}
+      <div className="absolute top-0 left-0 h-full w-[85%] z-[1]">
+        <div className="absolute inset-0 z-[2] bg-gradient-to-r from-black/60 via-black/20 to-black" />
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
             alt={heroImage.description}
             fill
-            className="object-cover object-top opacity-90"
+            className="object-cover opacity-90"
             priority
             data-ai-hint={heroImage.imageHint}
           />
