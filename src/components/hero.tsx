@@ -6,7 +6,7 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
 
   return (
-    <section id="hero-section" className="relative flex w-full items-start pt-28 overflow-hidden bg-background h-screen">
+    <section id="hero-section" className="relative flex w-full items-center overflow-hidden bg-background h-screen">
       
       {/* Frame */}
       <div className="absolute inset-[3%] border border-white/30 z-10 pointer-events-none">
@@ -16,7 +16,7 @@ export function HeroSection() {
 
       {/* Background Image Container */}
       <div className="absolute top-0 left-0 h-full w-full z-[1]">
-        <div className="absolute inset-0 z-[2] bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
+        <div className="absolute inset-0 z-[2] bg-gradient-to-t from-black/60 to-transparent md:bg-gradient-to-r md:from-black/70 md:via-black/30 md:to-transparent" />
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -30,18 +30,18 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-[5] w-full pl-8 sm:pl-12 md:pl-24">
-        <div className="max-w-[85%] sm:max-w-[70%] md:max-w-[55%]">
-          <h1 className="mb-6 font-headline text-5xl md:text-6xl lg:text-7xl font-light leading-none text-white">
+      <div className="relative z-[5] flex w-full justify-center px-4 md:justify-start md:px-0 md:pl-24">
+        <div className="max-w-[85%] text-center sm:max-w-[70%] md:max-w-[55%] md:text-left">
+          <h1 className="mb-6 font-headline text-5xl font-light leading-none text-white md:text-6xl lg:text-7xl">
             Weaving Heritage <br /> into <span className="italic text-accent">Elegance</span>
           </h1>
           
-          <p className="mb-8 max-w-[85%] border-l border-white/30 pl-6 font-body text-base md:text-lg font-light leading-relaxed text-white/90">
+          <p className="mx-auto mb-8 max-w-md font-body text-base font-light leading-relaxed text-white/90 md:mx-0 md:max-w-[85%] md:border-l md:border-white/30 md:pl-6 md:text-lg">
             Discover the authentic artistry of Kanchi Cotton and Banarasi Silk. Curated for the modern woman who carries tradition with grace.
           </p>
           
-          <div className="flex gap-4">
-            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-primary bg-primary px-6 py-3 md:px-8 md:py-4 font-body text-xs md:text-sm uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary/90">
+          <div className="flex justify-center gap-4 md:justify-start">
+            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-primary bg-primary px-6 py-3 font-body text-xs uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary/90 md:px-8 md:py-4 md:text-sm">
                 Shop New Arrivals
             </Link>
           </div>
