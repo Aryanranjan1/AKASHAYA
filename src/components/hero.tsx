@@ -6,7 +6,7 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
 
   return (
-    <section id="hero-section" className="relative flex w-full items-start pt-40 overflow-hidden bg-background h-screen">
+    <section id="hero-section" className="relative flex w-full items-start pt-28 overflow-hidden bg-background h-screen">
       
       {/* Frame */}
       <div className="absolute inset-[3%] border border-white/30 z-10 pointer-events-none">
@@ -31,7 +31,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-[5] w-full pl-8 sm:pl-12 md:pl-24">
-        <div className="max-w-[55%]">
+        <div className="max-w-[85%] sm:max-w-[70%] md:max-w-[55%]">
           <h1 className="mb-6 font-headline text-5xl md:text-6xl lg:text-7xl font-light leading-none text-white">
             Weaving Heritage <br /> into <span className="italic text-accent">Elegance</span>
           </h1>
