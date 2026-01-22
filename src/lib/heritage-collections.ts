@@ -18,21 +18,21 @@ export const heritageCollections: HeritageCollection[] = [
     id: 'royal-banarasi',
     category: '02 / Pure Silk',
     title: 'Royal Banarasi',
-    imageUrl: 'https://images.unsplash.com/photo-1583391726247-04b4f7b40e32?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     imageAlt: 'Royal Banarasi',
   },
   {
     id: 'artisan-suits',
     category: '03 / Contemporary',
     title: 'Artisan Suits',
-    imageUrl: 'https://images.unsplash.com/photo-1629559885741-6944e85741f0?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1745313452052-0e4e341f326c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     imageAlt: 'Artisan Suits',
   },
   {
     id: 'festive-edit',
     category: '04 / Seasonal',
     title: 'Festive Edit',
-    imageUrl: 'https://images.unsplash.com/photo-1596700877983-5003c20c02c9?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1729146768775-3662af38016e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     imageAlt: 'Festive Edit',
   },
   {
@@ -46,7 +46,7 @@ export const heritageCollections: HeritageCollection[] = [
     id: 'temple-weaves',
     category: '06 / Classic',
     title: 'Temple Weaves',
-    imageUrl: 'https://images.unsplash.com/photo-1601366112959-195c808f906e?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1741847639057-b51a25d42892?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     imageAlt: 'Temple Border',
   },
   {
