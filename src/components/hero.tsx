@@ -6,7 +6,7 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
 
   return (
-    <section id="hero-section" className="relative flex w-full items-start pt-40 overflow-hidden bg-black h-screen">
+    <section id="hero-section" className="relative flex w-full items-start pt-40 overflow-hidden bg-background h-screen">
       
       {/* Frame */}
       <div className="absolute inset-[3%] border border-white/30 z-10 pointer-events-none">
@@ -15,8 +15,8 @@ export function HeroSection() {
       </div>
 
       {/* Background Image Container */}
-      <div className="absolute top-0 left-0 h-full w-[85%] z-[1]">
-        <div className="absolute inset-0 z-[2] bg-gradient-to-r from-black/60 via-black/20 to-black" />
+      <div className="absolute top-0 left-0 h-full w-full z-[1]">
+        <div className="absolute inset-0 z-[2] bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
