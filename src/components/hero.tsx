@@ -31,27 +31,27 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-[5] w-full pl-[8%]">
-        <div className="max-w-[60%]">
-          <div className="mb-[2%] flex items-center gap-[2%] font-body text-[1.2vw] font-medium uppercase tracking-[0.3em] text-accent">
-            <div className="h-px w-[4%] bg-accent" />
+      <div className="relative z-[5] w-full pl-8 sm:pl-12 md:pl-24">
+        <div className="max-w-[45%]">
+          <div className="mb-4 flex items-center gap-4 font-body text-sm font-medium uppercase tracking-widest text-accent">
+            <div className="h-px w-10 bg-accent" />
             <span>Est. 2025 • Sungai Petani</span>
           </div>
 
-          <h1 className="mb-[3%] font-headline text-[6vw] font-light leading-[0.95] text-white">
+          <h1 className="mb-6 font-headline text-5xl md:text-6xl lg:text-7xl font-light leading-none text-white">
             Weaving Heritage <br /> into <span className="italic text-accent">Elegance</span>
           </h1>
           
-          <p className="mb-[5%] max-w-[80%] border-l border-white/30 pl-[3%] font-body text-[1.3vw] font-light leading-relaxed text-white/90">
+          <p className="mb-8 max-w-[85%] border-l border-white/30 pl-6 font-body text-base md:text-lg font-light leading-relaxed text-white/90">
             Discover the authentic artistry of Kanchi Cotton and Banarasi Silk. Curated for the modern woman who carries tradition with grace.
           </p>
           
-          <div className="flex gap-[2%]">
-            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-primary bg-primary p-[1.5%_4%] font-body text-[1vw] uppercase tracking-[0.2em] text-primary-foreground transition-colors hover:bg-primary/90">
+          <div className="flex gap-4">
+            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-primary bg-primary px-6 py-3 md:px-8 md:py-4 font-body text-xs md:text-sm uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary/90">
                 Shop New Arrivals
             </Link>
-            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-white/50 bg-transparent p-[1.5%_4%] font-body text-[1vw] uppercase tracking-[0.2em] text-white transition-colors hover:bg-white/10">
-                <PlayCircle className="mr-2 h-[1.2em] w-[1.2em]" /> 
+            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-white/50 bg-transparent px-6 py-3 md:px-8 md:py-4 font-body text-xs md:text-sm uppercase tracking-widest text-white transition-colors hover:bg-white/10">
+                <PlayCircle className="mr-2 h-5 w-5" /> 
                 View Lookbook
             </Link>
           </div>
