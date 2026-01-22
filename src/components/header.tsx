@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Search, User, ShoppingCart } from 'lucide-react';
+import { Search, User, ShoppingCart, Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { Logo } from './logo';
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from './ui/sheet';
@@ -50,26 +50,7 @@ export function Header() {
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" aria-label="Toggle menu">
-                <div className="flex flex-col justify-between w-6 h-6 transform transition-all duration-300 origin-center">
-                  <div
-                    className={cn(
-                      'bg-foreground h-[2px] w-full rounded-full transform transition-all duration-300 origin-left',
-                      isSheetOpen && 'rotate-[45deg] w-7'
-                    )}
-                  />
-                  <div
-                    className={cn(
-                      'bg-foreground h-[2px] w-full rounded-full transition-all duration-300',
-                      isSheetOpen && 'opacity-0'
-                    )}
-                  />
-                  <div
-                    className={cn(
-                      'bg-foreground h-[2px] w-full rounded-full transform transition-all duration-300 origin-left',
-                      isSheetOpen && '-rotate-[45deg] w-7'
-                    )}
-                  />
-                </div>
+                <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] bg-background p-6 flex flex-col">
@@ -98,27 +79,8 @@ export function Header() {
                   href="#"
                   className="flex items-center gap-3 p-2 rounded-md text-base text-foreground hover:bg-muted hover:text-accent transition-colors"
                 >
-                  <Search className="h-5 w-5" />
-                  <span>Search</span>
-                </Link>
-                <Link
-                  href="#"
-                  className="flex items-center gap-3 p-2 rounded-md text-base text-foreground hover:bg-muted hover:text-accent transition-colors"
-                >
                   <User className="h-5 w-5" />
                   <span>My Account</span>
-                </Link>
-                <Link
-                  href="#"
-                  className="flex items-center justify-between w-full p-2 rounded-md text-base text-foreground hover:bg-muted hover:text-accent transition-colors"
-                >
-                  <div className="flex items-center gap-3">
-                    <ShoppingCart className="h-5 w-5" />
-                    <span>Cart</span>
-                  </div>
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">
-                    0
-                  </span>
                 </Link>
               </div>
             </SheetContent>
@@ -129,19 +91,35 @@ export function Header() {
           <Logo />
         </div>
 
-        <div className="hidden md:flex items-center space-x-2">
-          <Button variant="ghost" size="icon" aria-label="Search">
-            <Search className="h-5 w-5" />
-          </Button>
-          <Button variant="ghost" size="icon" aria-label="User profile">
-            <User className="h-5 w-5" />
-          </Button>
-          <Button variant="ghost" size="icon" className="relative" aria-label="Shopping cart">
-            <ShoppingCart className="h-5 w-5" />
-            <span className="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">
-              0
-            </span>
-          </Button>
+        <div className="flex items-center">
+            {/* Mobile Icons */}
+            <div className="flex items-center gap-1 md:hidden">
+                <Button variant="ghost" size="icon" aria-label="Search">
+                    <Search className="h-5 w-5" />
+                </Button>
+                <Button variant="ghost" size="icon" className="relative" aria-label="Shopping cart">
+                    <ShoppingCart className="h-5 w-5" />
+                    <span className="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">
+                        0
+                    </span>
+                </Button>
+            </div>
+
+            {/* Desktop Icons */}
+            <div className="hidden md:flex items-center space-x-2">
+                <Button variant="ghost" size="icon" aria-label="Search">
+                    <Search className="h-5 w-5" />
+                </Button>
+                <Button variant="ghost" size="icon" aria-label="User profile">
+                    <User className="h-5 w-5" />
+                </Button>
+                <Button variant="ghost" size="icon" className="relative" aria-label="Shopping cart">
+                    <ShoppingCart className="h-5 w-5" />
+                    <span className="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">
+                        0
+                    </span>
+                </Button>
+            </div>
         </div>
       </div>
     </header>
