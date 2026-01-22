@@ -50,10 +50,6 @@ export function HeroSection() {
             <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-primary bg-primary px-6 py-3 md:px-8 md:py-4 font-body text-xs md:text-sm uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary/90">
                 Shop New Arrivals
             </Link>
-            <Link href="#" className="flex items-center justify-center whitespace-nowrap border border-white/50 bg-transparent px-6 py-3 md:px-8 md:py-4 font-body text-xs md:text-sm uppercase tracking-widest text-white transition-colors hover:bg-white/10">
-                <PlayCircle className="mr-2 h-5 w-5" /> 
-                View Lookbook
-            </Link>
           </div>
         </div>
       </div>
