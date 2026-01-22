@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Search, User, ShoppingCart, Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { Logo } from './logo';
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from './ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet';
 import { useState, useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
 import { Input } from './ui/input';
@@ -56,6 +56,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] bg-background p-6 flex flex-col">
               <SheetHeader className="mb-8">
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                 <Logo />
               </SheetHeader>
 
