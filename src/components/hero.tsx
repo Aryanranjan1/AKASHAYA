@@ -25,8 +25,9 @@ export function HeroSection() {
             src={heroImage.imageUrl}
             alt={heroImage.description}
             fill
-            className="object-cover opacity-90 object-[-150px_center] md:object-center"
+            className="object-cover opacity-90 object-right md:object-center"
             priority
+            sizes="100vw"
             data-ai-hint={heroImage.imageHint}
           />
         )}
