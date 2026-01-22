@@ -11,7 +11,6 @@ const socialImageIds = [
     "social-4",
     "social-5",
     "social-6",
-    "social-7",
 ]
 
 const socialMeta = [
@@ -21,7 +20,6 @@ const socialMeta = [
     "Behind Scenes",
     "Our Story",
     "Festive Edit",
-    "Customer Love"
 ];
 
 export function Social() {

@@ -87,44 +87,38 @@
     {
       "id": "social-1",
       "description": "Woman showing off her beautiful saree",
-      "imageUrl": "https://images.unsplash.com/photo-1761125135351-268e72e39158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYXJlZSUyMHN0eWxlfGVufDB8fHx8MTc2OTAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.pexels.com/photos/17360615/pexels-photo-17360615.jpeg",
       "imageHint": "saree style"
     },
     {
       "id": "social-2",
       "description": "Close up on a colorful fabric",
-      "imageUrl": "https://images.unsplash.com/photo-1760162690638-743ba3c1d4f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxldGhuaWMlMjBmYXNoaW9ufGVufDB8fHx8MTc2ODkwODE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.pexels.com/photos/30703870/pexels-photo-30703870.jpeg",
       "imageHint": "ethnic fashion"
     },
     {
       "id": "social-3",
       "description": "Model posing in an elegant kurta",
-      "imageUrl": "https://images.unsplash.com/photo-1623537873757-e90e188eeaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuZXclMjBjb2xsZWN0aW9ufGVufDB8fHx8MTc2OTAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.pexels.com/photos/7752214/pexels-photo-7752214.jpeg",
       "imageHint": "new collection"
     },
     {
       "id": "social-4",
       "description": "Woman smiling in traditional Indian attire",
-      "imageUrl": "https://images.unsplash.com/photo-1651041577175-e75c2da20682?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiZWhpbmQlMjBzY2VuZXN8ZW58MHx8fHwxNzY4OTk1MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.pexels.com/photos/33067043/pexels-photo-33067043.jpeg",
       "imageHint": "behind scenes"
     },
     {
       "id": "social-5",
       "description": "Details of a handloom saree",
-      "imageUrl": "https://images.unsplash.com/photo-1726931535215-e4c6e05a2cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXJ0aXNhbiUyMHN0b3J5fGVufDB8fHx8MTc2OTAyNzYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.pexels.com/photos/33124031/pexels-photo-33124031.jpeg",
       "imageHint": "artisan story"
     },
     {
       "id": "social-6",
       "description": "Happy customer in Akshaya collection",
-      "imageUrl": "https://images.unsplash.com/photo-1734660427888-78a01fe933e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZXN0aXZlJTIwZWRpdHxlbnwwfHx8fDE3NjkwMjc2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.pexels.com/photos/33078868/pexels-photo-33078868.jpeg",
       "imageHint": "festive edit"
-    },
-    {
-      "id": "social-7",
-      "description": "A happy customer in our collection",
-      "imageUrl": "https://images.unsplash.com/photo-1758524055712-6588a2ce9106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdXN0b21lciUyMGxvdmV8ZW58MHx8fHwxNzY5MDI3NjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "customer love"
     },
     {
       "id": "blog-1",
