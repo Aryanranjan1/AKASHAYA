@@ -7,6 +7,7 @@ import { Logo } from './logo';
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from './ui/sheet';
 import { useState, useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
+import { Input } from './ui/input';
 
 const navLinks = [
   { name: 'HOME', href: '/' },
@@ -58,6 +59,15 @@ export function Header() {
                 <Logo />
               </SheetHeader>
 
+              <div className="relative mb-8">
+                <Input
+                  type="search"
+                  placeholder="Search Collection..."
+                  className="h-10 w-full rounded-md border bg-muted/50 pr-10 text-sm"
+                />
+                <Search className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              </div>
+
               <nav className="flex-grow">
                 <ul className="flex flex-col space-y-6">
                   {navLinks.map((link) => (
@@ -81,6 +91,13 @@ export function Header() {
                 >
                   <User className="h-5 w-5" />
                   <span>My Account</span>
+                </Link>
+                <Link
+                  href="#"
+                  className="flex items-center gap-3 p-2 rounded-md text-base text-foreground hover:bg-muted hover:text-accent transition-colors"
+                >
+                  <ShoppingCart className="h-5 w-5" />
+                  <span>My Cart</span>
                 </Link>
               </div>
             </SheetContent>
