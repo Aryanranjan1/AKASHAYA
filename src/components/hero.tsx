@@ -6,7 +6,7 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-main');
 
   return (
-    <section id="hero-section" className="relative flex w-full items-start pt-32 sm:pt-40 md:pt-48 overflow-hidden bg-black h-screen">
+    <section id="hero-section" className="relative flex w-full items-start pt-40 overflow-hidden bg-black h-screen">
       
       {/* Frame */}
       <div className="absolute inset-[3%] border border-white/30 z-10 pointer-events-none">

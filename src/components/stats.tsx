@@ -20,7 +20,7 @@ const stats = [
 
 export function Stats() {
   return (
-    <section className="bg-card">
+    <section className="bg-muted">
       <div className="container mx-auto px-4 py-4 md:py-6">
         <div className="grid grid-cols-3 gap-2 md:gap-4">
           {stats.map((stat, index) => (
