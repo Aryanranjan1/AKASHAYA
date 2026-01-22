@@ -21,8 +21,8 @@ export function Footer() {
           
           <div className="lg:col-span-4">
             <div className="mb-6 flex items-center gap-4">
-                <Logo />
                 <Crown className="w-8 h-8 text-accent"/>
+                <Logo variant="golden" />
             </div>
             <p className="text-sm leading-relaxed text-primary-foreground/80 max-w-sm mb-6">
               Curating legacies, one six-yard story at a time. Akshaya is your sanctuary for authentic, uncompromising elegance.
