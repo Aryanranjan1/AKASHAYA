@@ -7,7 +7,7 @@ export function Logo({ className, variant = 'default' }: { className?: string; v
     <Link href="/" className={cn(isGolden ? '' : "group", className)}>
       <div className="flex flex-col items-center">
         <h1 className={cn(
-          "font-headline text-2xl md:text-3xl lg:text-4xl font-bold tracking-[0.1em]",
+          "font-headline text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight",
           isGolden 
             ? "text-accent" 
             : "text-primary group-hover:text-accent transition-colors"
