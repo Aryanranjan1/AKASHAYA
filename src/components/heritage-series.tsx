@@ -58,7 +58,7 @@ export function HeritageSeries() {
               </div>
               <div className="text-center mt-6 transition-all duration-300">
                 <span className="font-body text-xs text-accent uppercase tracking-[2px] mb-2 block">{collection.category}</span>
-                <h3 className="font-headline text-2xl text-primary leading-none relative inline-block after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-px after:bg-accent after:transition-all after:duration-400 after:ease-in-out group-hover:after:w-full">{collection.title}</h3>
+                <h3 className="font-headline text-2xl text-primary leading-none relative inline-block after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-px after:bg-accent after:transition-all after:duration-400 after:ease-in-out">{collection.title}</h3>
               </div>
             </Link>
           ))}
