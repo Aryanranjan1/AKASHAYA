@@ -20,18 +20,18 @@ export function HeritageSeries() {
   };
 
   return (
-    <section className="bg-background pb-24">
+    <section className="bg-muted pb-24">
       <div className="container mx-auto px-5 py-24">
         <header className="flex items-center gap-8 mb-20 w-full">
           <div className="header-line hidden md:block flex-grow h-px bg-gradient-to-r from-transparent via-accent to-transparent opacity-50 relative">
-            <span className="absolute left-0 top-1/2 -translate-y-1/2 text-accent text-base bg-background pr-2.5">❖</span>
+            <span className="absolute left-0 top-1/2 -translate-y-1/2 text-accent text-base bg-muted pr-2.5">❖</span>
           </div>
           <div className="text-center flex-shrink-0 mx-auto md:mx-0">
             <span className="font-body text-xs text-accent uppercase tracking-[3px] mb-1 block font-medium">The Atelier</span>
             <h2 className="font-headline text-5xl md:text-6xl text-primary leading-none m-0 font-normal">Heritage <i>Series</i></h2>
           </div>
           <div className="header-line hidden md:block flex-grow h-px bg-gradient-to-r from-transparent via-accent to-transparent opacity-50 relative">
-            <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-base bg-background pl-2.5">❖</span>
+            <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-base bg-muted pl-2.5">❖</span>
           </div>
         </header>
 

@@ -28,7 +28,7 @@ export function Social() {
   const socialImages = socialImageIds.map(id => PlaceHolderImages.find(img => img.id === id)).filter(Boolean);
 
   return (
-    <section id="social-section" className="w-full overflow-hidden bg-white">
+    <section id="social-section" className="w-full overflow-hidden bg-muted">
         <div className="relative w-full max-w-full py-20 lg:py-24">
             
             <div className="absolute top-40 left-0 z-0 whitespace-nowrap font-headline text-[5rem] md:text-[10rem] leading-none text-primary/5 select-none animate-ticker-scroll pointer-events-none">
@@ -44,7 +44,7 @@ export function Social() {
                     <h2 className="font-headline text-6xl text-primary leading-none m-0 font-normal">The Social <i className="italic font-light">Edit</i></h2>
                 </div>
                 <div className="flex-grow h-px bg-gradient-to-r from-accent to-accent/20 mb-3 relative hidden md:block">
-                    <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-xl bg-white pl-2.5">❖</span>
+                    <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-xl bg-muted pl-2.5">❖</span>
                 </div>
             </header>
 

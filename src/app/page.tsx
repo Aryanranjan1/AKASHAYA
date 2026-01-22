@@ -8,7 +8,6 @@ import { Social } from '@/components/social';
 import { BlogSection } from '@/components/blog-section';
 import { Stats } from '@/components/stats';
 import { HeritageSeries } from '@/components/heritage-series';
-import { SectionDivider } from '@/components/section-divider';
 
 export default function Home() {
   return (
@@ -18,15 +17,10 @@ export default function Home() {
         <HeroSection />
         <Stats />
         <ProductCarousel />
-        <SectionDivider />
         <HeritageSeries />
-        <SectionDivider />
         <AboutUs />
-        <SectionDivider />
         <Testimonials />
-        <SectionDivider />
         <Social />
-        <SectionDivider />
         <BlogSection />
       </main>
       <Footer />

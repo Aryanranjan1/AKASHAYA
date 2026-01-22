@@ -37,7 +37,7 @@ const renderStars = (rating: number) => {
 
 export function Testimonials() {
   return (
-    <section className="bg-background">
+    <section className="bg-muted">
       <div className="container mx-auto px-4 py-16 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-0 items-start relative">
             
@@ -47,7 +47,7 @@ export function Testimonials() {
                     <div className="flex items-end justify-center lg:justify-start gap-5 w-full">
                         <h2 className="font-headline text-5xl text-primary leading-none whitespace-nowrap">Kind <i>Words</i></h2>
                         <div className="flex-grow h-px bg-gradient-to-r from-accent to-accent/20 mb-3 relative hidden lg:block">
-                            <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-xl bg-background pl-2.5">❖</span>
+                            <span className="absolute right-0 top-1/2 -translate-y-1/2 text-accent text-xl bg-muted pl-2.5">❖</span>
                         </div>
                     </div>
                 </header>
