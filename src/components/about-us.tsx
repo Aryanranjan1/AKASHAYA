@@ -46,7 +46,7 @@ export function AboutUs() {
             </div>
 
             <div className="w-full h-64 mb-8 border border-white/10 grayscale-[80%] sepia-[20%] contrast-125 transition-all duration-500 hover:grayscale-0">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.766324275031!2d100.485!3d5.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzgnNDIuMCJOIDEwMMKwMjknMDYuMCJF!5e0!3m2!1sen!2smy!4v1600000000000!5m2!1sen!2smy" allowFullScreen loading="lazy" className="w-full h-full border-0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.766324275031!2d100.485!3d5.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzgnNDIuMCJOIDEwMMKwMjknMDYuMCJF!5e0!3m2!1sen!2smy!4v1600000000000!5m2!1sen!2smy" allowFullScreen loading="lazy" className="w-full h-full border-0" title="Google Maps location of Akshaya Exclusive boutique in Sungai Petani, Kedah"></iframe>
             </div>
 
             <div className="flex gap-4 items-center border-t border-white/10 pt-8">

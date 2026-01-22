@@ -89,7 +89,7 @@ export function Testimonials() {
                                 </div>
                             )}
                             <div>
-                                <h4 className="font-headline text-lg text-primary">{testimonial.name}</h4>
+                                <h3 className="font-headline text-lg text-primary">{testimonial.name}</h3>
                                 <span className="text-xs text-accent uppercase tracking-wider flex items-center gap-1.5">
                                     <CheckCircle className="w-3 h-3" /> Verified Buyer
                                 </span>

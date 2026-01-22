@@ -50,9 +50,9 @@ export function HeritageSeries() {
                 <Image
                   src={collection.imageUrl}
                   alt={collection.imageAlt}
-                  fill
-                  className="object-cover transition-transform duration-[1200ms] ease-in-out group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  width={350}
+                  height={450}
+                  className="object-cover w-full h-full transition-transform duration-[1200ms] ease-in-out group-hover:scale-110"
                 />
                 <div className="absolute inset-2.5 rounded-t-[190px] border border-white/50 pointer-events-none transition-all duration-400 group-hover:inset-0 group-hover:border-accent/50" />
               </div>

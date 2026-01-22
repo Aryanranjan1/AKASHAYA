@@ -27,6 +27,7 @@ export function HeroSection() {
             fill
             className="object-cover object-[70%_50%] md:object-center"
             priority
+            fetchPriority="high"
             sizes="100vw"
             data-ai-hint={heroImage.imageHint}
           />

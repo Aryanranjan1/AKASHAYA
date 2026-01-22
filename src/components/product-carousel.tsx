@@ -70,7 +70,7 @@ function ProductCarouselCard({
               <span className="old-price text-sm text-gray-400 line-through ml-2">{oldPrice}</span>
             )}
           </div>
-          <span className="btn-buy-outlined text-xs uppercase text-accent border border-accent py-1.5 px-3 transition-colors duration-300 cursor-pointer tracking-wider group-hover:bg-accent group-hover:text-primary">
+          <span role="button" className="btn-buy-outlined text-xs uppercase text-accent border border-accent py-1.5 px-3 transition-colors duration-300 cursor-pointer tracking-wider group-hover:bg-accent group-hover:text-primary">
             Buy Now
           </span>
         </div>
@@ -90,22 +90,25 @@ export function ProductCarousel() {
   };
 
   return (
-    <section id="product-carousel" className="w-full bg-white py-20 relative">
+    <section id="product-carousel" className="w-full bg-white py-20 relative" aria-labelledby="carousel-heading">
+      <h2 id="carousel-heading" className="sr-only">Latest Arrivals</h2>
       <div className="carousel-wrapper max-w-full lg:px-10 relative">
         <button
           onClick={() => moveSlide(-325)}
           className="carousel-nav nav-prev absolute top-[35%] -translate-y-1/2 w-11 h-11 border border-gray-300 bg-white text-gray-800 hidden lg:flex items-center justify-center cursor-pointer z-10 transition-colors duration-300 shadow-md hover:bg-primary hover:border-primary hover:text-white left-10"
+          aria-label="Previous products"
         >
           <ChevronLeft />
         </button>
         <button
           onClick={() => moveSlide(325)}
           className="carousel-nav nav-next absolute top-[35%] -translate-y-1/2 w-11 h-11 border border-gray-300 bg-white text-gray-800 hidden lg:flex items-center justify-center cursor-pointer z-10 transition-colors duration-300 shadow-md hover:bg-primary hover:border-primary hover:text-white right-10"
+          aria-label="Next products"
         >
           <ChevronRight />
         </button>
 
-        <div ref={trackRef} className="card-track flex gap-6 overflow-x-auto px-5 pb-10 scroll-smooth scrollbar-hide">
+        <div ref={trackRef} id="product-carousel-track" className="card-track flex gap-6 overflow-x-auto px-5 pb-10 scroll-smooth scrollbar-hide">
           {carouselProducts.map((product) => {
             const frontImage = PlaceHolderImages.find(p => p.id === product.frontImageId);
             const backImage = PlaceHolderImages.find(p => p.id === product.backImageId);
