@@ -25,11 +25,11 @@ const statsData = [
 const StatItem = ({ icon: Icon, number, suffix, label }: typeof statsData[0]) => (
     <div className="stat-item flex-1 text-center px-1 sm:px-2.5">
         <Icon className="text-accent text-lg sm:text-xl md:text-2xl mb-1.5 sm:mb-2.5 mx-auto opacity-90" aria-hidden="true"/>
-        <span className="stat-number font-headline text-3xl sm:text-4xl md:text-5xl text-white leading-none block mb-1 whitespace-nowrap">
+        <span className="stat-number font-headline text-3xl sm:text-4xl md:text-5xl text-primary leading-none block mb-1 whitespace-nowrap">
             {number}
             <span className="text-accent">{suffix}</span>
         </span>
-        <span className="stat-label font-body text-[0.55rem] sm:text-[0.7rem] md:text-xs uppercase tracking-wider md:tracking-[2px] text-white/80 font-light block leading-tight">
+        <span className="stat-label font-body text-[0.55rem] sm:text-[0.7rem] md:text-xs uppercase tracking-wider md:tracking-[2px] text-foreground/80 font-light block leading-tight">
             {label}
         </span>
     </div>
@@ -41,7 +41,7 @@ const Divider = () => (
 
 export function Stats() {
   return (
-    <section id="stat-strip" className="bg-primary py-6 md:py-10 border-y border-accent/30">
+    <section id="stat-strip" className="bg-muted py-10 md:py-12">
       <div className="container mx-auto px-2 sm:px-5">
         <div className="flex justify-around items-center">
             {statsData.map((stat, index) => (
