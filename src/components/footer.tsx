@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Facebook, Instagram, MessageSquare, MapPin, Phone, Mail } from 'lucide-react';
+import { Logo } from './logo';
 
 const usefulLinks = ["About Us", "Contact Us", "Shipping Policy", "Return Policy", "Size Guide", "FAQs"];
 const collections = ["Sarees", "Cotton Suits", "Lehengas", "Kurti Sets", "Plus Size", "New Arrivals"];
@@ -16,12 +17,13 @@ export function Footer() {
     <footer id="akshaya-footer" className="bg-primary text-white font-body border-t-[5px] border-accent">
       <div className="container max-w-[1300px] mx-auto px-5 pt-20 pb-10">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-x-12 gap-y-14 mb-16 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-x-12 gap-y-14 mb-16">
             
-            <div className="md:col-span-2 lg:col-span-1 text-center lg:text-left max-w-sm mx-auto lg:mx-0">
-                <h2 className="font-headline text-4xl text-white mb-2 leading-none" style={{letterSpacing: '-1px'}}>AKSHAYA</h2>
-                <span className="font-body text-xs text-accent uppercase tracking-[2px] mb-6 block">Exclusive Collection</span>
-                <p className="text-[0.9rem] text-white/70 leading-relaxed mb-7 font-light">
+            <div className="md:col-span-2 lg:col-span-1 max-w-sm mx-auto lg:mx-0">
+                <div className="flex justify-center lg:justify-start">
+                    <Logo variant="golden" />
+                </div>
+                <p className="text-[0.9rem] text-white/70 leading-relaxed mb-7 font-light mt-6 text-center lg:text-left">
                     Curating legacies, one six-yard story at a time. Akshaya is your sanctuary for authentic, uncompromising elegance.
                 </p>
                 <div className="space-y-4 text-sm text-white/90 font-light">
