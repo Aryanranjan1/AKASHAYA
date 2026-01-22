@@ -19,7 +19,7 @@ export function HeroSection() {
 
       {/* Background Image Container */}
       <div className="absolute top-0 left-0 h-full w-full z-[1]">
-        <div className="absolute inset-0 z-[2] bg-gradient-to-t from-black/60 to-transparent md:bg-gradient-to-l md:from-black/70 md:to-transparent" />
+        <div className="absolute inset-0 z-[2] bg-gradient-to-t from-black/60 to-transparent md:bg-gradient-to-r md:from-black/70 md:to-transparent" />
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
