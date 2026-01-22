@@ -32,7 +32,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-[5] w-full pl-8 sm:pl-12 md:pl-24">
-        <div className="max-w-[45%]">
+        <div className="max-w-[60%]">
           <div className="mb-4 flex items-center gap-4 font-body text-sm font-medium uppercase tracking-widest text-accent">
             <div className="h-px w-10 bg-accent" />
             <span>Est. 2025 • Sungai Petani</span>
