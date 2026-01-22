@@ -25,7 +25,7 @@ export function HeroSection() {
             src={heroImage.imageUrl}
             alt={heroImage.description}
             fill
-            className="object-cover opacity-90 object-[70%_50%] md:object-center"
+            className="object-cover object-[70%_50%] md:object-center"
             priority
             sizes="100vw"
             data-ai-hint={heroImage.imageHint}
@@ -35,11 +35,11 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-[5] w-full px-8 md:px-0 md:pl-24 md:max-w-[55%]">
-          <h1 className="mb-6 font-headline text-5xl font-light leading-none text-white md:text-6xl lg:text-7xl">
+          <h1 className="mb-6 font-headline text-4xl font-light leading-none text-white md:text-6xl lg:text-7xl">
             Weaving Heritage <br /> into <span className="italic text-accent">Elegance</span>
           </h1>
           
-          <p className="mb-8 max-w-md font-body text-base font-light leading-relaxed text-white/90 md:max-w-[85%] md:border-l md:border-white/30 md:pl-6 md:text-lg">
+          <p className="mb-8 max-w-md font-body text-sm font-light leading-relaxed text-white/90 md:max-w-[85%] md:border-l md:border-white/30 md:pl-6 md:text-lg">
             Discover the authentic artistry of Kanchi Cotton and Banarasi Silk. Curated for the modern woman who carries tradition with grace.
           </p>
           
